@@ -54,7 +54,9 @@
                                             <asp:BoundField DataField="InvoiceDate" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Invoice Date"  SortExpression="InvoiceDate" ReadOnly="true" InsertVisible="false" />
                                     
                                             <asp:BoundField DataField="Total" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Total"  SortExpression="Total" ReadOnly="true" InsertVisible="false" />
-                                  
+
+                                            <asp:BoundField DataField="Details" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Details" SortExpression="Details" ReadOnly="true" InsertVisible="false" />
+
                                             <asp:TemplateField>
                                                 <ItemTemplate>
                                                     <asp:Button runat="server" ID="btnDetails" Text="Details" Width="75px" CssClass="botonForm" OnClick="btnDetails_Click" />
