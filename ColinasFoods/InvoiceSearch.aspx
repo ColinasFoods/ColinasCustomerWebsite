@@ -73,7 +73,7 @@
                                             <asp:TemplateField>
                                                 <HeaderStyle BackColor="#b00505" />
                                                 <HeaderTemplate>
-                                                    <asp:Label runat="server" Text="Details" CssClass="Grid th" />
+                                                    <asp:Label runat="server" Text="Details" ssClass="Grid th" />
                                                 </HeaderTemplate>
                                                 <ItemTemplate>
                                                     <asp:Button runat="server" ID="btnDetails" Text="Details" Width="75px" CssClass="botonForm" OnClick="btnDetails_Click" />
