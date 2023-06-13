@@ -1,0 +1,11 @@
+C:\Documenta Sapi\Sistemas\Colinas Foods\ColinasFoods\ColinasFoods\bin\ColinasFoods.dll.config
+C:\Documenta Sapi\Sistemas\Colinas Foods\ColinasFoods\ColinasFoods\bin\ColinasFoods.dll
+C:\Documenta Sapi\Sistemas\Colinas Foods\ColinasFoods\ColinasFoods\bin\ColinasFoods.pdb
+C:\Documenta Sapi\Sistemas\Colinas Foods\ColinasFoods\ColinasFoods\bin\EntityFramework.dll
+C:\Documenta Sapi\Sistemas\Colinas Foods\ColinasFoods\ColinasFoods\bin\EntityFramework.SqlServer.dll
+C:\Documenta Sapi\Sistemas\Colinas Foods\ColinasFoods\ColinasFoods\bin\Owin.dll
+C:\Documenta Sapi\Sistemas\Colinas Foods\ColinasFoods\ColinasFoods\bin\EntityFramework.xml
+C:\Documenta Sapi\Sistemas\Colinas Foods\ColinasFoods\ColinasFoods\bin\EntityFramework.SqlServer.xml
+C:\Documenta Sapi\Sistemas\Colinas Foods\ColinasFoods\ColinasFoods\obj\Release\ColinasFoods.dll
+C:\Documenta Sapi\Sistemas\Colinas Foods\ColinasFoods\ColinasFoods\obj\Release\ColinasFoods.pdb
+C:\Documenta Sapi\Sistemas\Colinas Foods\ColinasFoods\ColinasFoods\obj\Release\ColinasFoods.csprojResolveAssemblyReference.cache

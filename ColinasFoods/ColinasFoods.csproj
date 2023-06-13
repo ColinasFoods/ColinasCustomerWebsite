@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AD0C3DCD-F623-4E13-9B60-2B77F2661B9A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ColinasFoods</RootNamespace>
+    <AssemblyName>ColinasFoods</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddNewSalesOrder.aspx" />
+    <Content Include="Balance.aspx" />
+    <Content Include="ColinasStyles.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\addNew.png" />
+    <Content Include="Images\bg.jpg" />
+    <Content Include="Images\btn_contacts.png" />
+    <Content Include="Images\btn_employee.png" />
+    <Content Include="Images\btn_inventory.png" />
+    <Content Include="Images\btn_logout.png" />
+    <Content Include="Images\btn_logout_hover.png" />
+    <Content Include="Images\btn_products.png" />
+    <Content Include="Images\btn_sales.png" />
+    <Content Include="Images\chosenPhaseBox.png" />
+    <Content Include="Images\colinas_Logo.jpg" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\logo-Colinasjpg.jpg" />
+    <Content Include="Images\logoSapiG.png" />
+    <Content Include="Images\logoSapiGB.png" />
+    <Content Include="Images\Sapi-logo.jpg" />
+    <Content Include="Images\shadowF.png" />
+    <Content Include="InvoiceSearch.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="PaymentDetails.aspx" />
+    <Content Include="PaymentSearch.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="Properties\PublishProfiles\ColinasPublish.pubxml" />
+    <Content Include="SalesOrderHistory.aspx" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <None Include="Scripts\jquery-3.2.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.2.1.js" />
+    <Content Include="Scripts\jquery-3.2.1.min.js" />
+    <Content Include="Scripts\jquery-3.2.1.slim.js" />
+    <Content Include="Scripts\jquery-3.2.1.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Web.config" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewSalesOrder.aspx.cs">
+      <DependentUpon>AddNewSalesOrder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddNewSalesOrder.aspx.designer.cs">
+      <DependentUpon>AddNewSalesOrder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Balance.aspx.cs">
+      <DependentUpon>Balance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Balance.aspx.designer.cs">
+      <DependentUpon>Balance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceSearch.aspx.cs">
+      <DependentUpon>InvoiceSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InvoiceSearch.aspx.designer.cs">
+      <DependentUpon>InvoiceSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ColinasProductsModel.cs" />
+    <Compile Include="Models\Tbl_Ac_Accounts.cs" />
+    <Compile Include="Models\Tbl_Ac_Accounts_Balance.cs" />
+    <Compile Include="Models\Tbl_Ac_Accounts_Groups.cs" />
+    <Compile Include="Models\Tbl_Ac_AP.cs" />
+    <Compile Include="Models\Tbl_Ac_AP_Doc.cs" />
+    <Compile Include="Models\Tbl_Ac_AP_Doc_Movs.cs" />
+    <Compile Include="Models\Tbl_Ac_Banks.cs" />
+    <Compile Include="Models\Tbl_Ac_Invoice.cs" />
+    <Compile Include="Models\Tbl_Ac_Invoice_Details.cs" />
+    <Compile Include="Models\Tbl_Ac_Journal.cs" />
+    <Compile Include="Models\Tbl_Ac_Journal_AP.cs" />
+    <Compile Include="Models\Tbl_Ac_Journal_AR.cs" />
+    <Compile Include="Models\Tbl_Ac_Journal_Details.cs" />
+    <Compile Include="Models\Tbl_Ac_PaymentMethods.cs" />
+    <Compile Include="Models\Tbl_Ac_PaymentsApplications.cs" />
+    <Compile Include="Models\Tbl_Ac_PaymentsApplications_Details.cs" />
+    <Compile Include="Models\Tbl_HR_Departaments.cs" />
+    <Compile Include="Models\Tbl_HR_Personnel.cs" />
+    <Compile Include="Models\Tbl_HR_Titles.cs" />
+    <Compile Include="Models\Tbl_Mgmt_CustomerAnalysis.cs" />
+    <Compile Include="Models\Tbl_Proc_PO.cs" />
+    <Compile Include="Models\Tbl_Proc_PO_Materials.cs" />
+    <Compile Include="Models\Tbl_Proc_Vendors.cs" />
+    <Compile Include="Models\Tbl_Proc_Vendors_Contacts.cs" />
+    <Compile Include="Models\Tbl_PR_Labels.cs" />
+    <Compile Include="Models\Tbl_PR_WorkOrders.cs" />
+    <Compile Include="Models\Tbl_PR_WorkOrders_Inputs.cs" />
+    <Compile Include="Models\Tbl_PR_WorkOrders_Outputs.cs" />
+    <Compile Include="Models\Tbl_PR_WorkOrders_Workers.cs" />
+    <Compile Include="Models\Tbl_Sales_CRM.cs" />
+    <Compile Include="Models\Tbl_Sales_Customers.cs" />
+    <Compile Include="Models\Tbl_Sales_Customers_Contacts.cs" />
+    <Compile Include="Models\Tbl_Sales_Customers_MaterialsNF.cs" />
+    <Compile Include="Models\Tbl_Sales_Customers_Notes.cs" />
+    <Compile Include="Models\Tbl_Sales_Customers_ShipTo.cs" />
+    <Compile Include="Models\Tbl_Sales_CustomerTypes.cs" />
+    <Compile Include="Models\Tbl_Sales_DeliveryTerms.cs" />
+    <Compile Include="Models\Tbl_Sales_PaymentTerms.cs" />
+    <Compile Include="Models\Tbl_Sales_PriceLists.cs" />
+    <Compile Include="Models\Tbl_Sales_PriceLists_Materials.cs" />
+    <Compile Include="Models\Tbl_Sales_Salesman.cs" />
+    <Compile Include="Models\Tbl_Sales_SalesOrder.cs" />
+    <Compile Include="Models\Tbl_Sales_SalesOrder_Details.cs" />
+    <Compile Include="Models\Tbl_Sales_TaxOptions.cs" />
+    <Compile Include="Models\Tbl_SH_Packing.cs" />
+    <Compile Include="Models\Tbl_SH_Packing_Details.cs" />
+    <Compile Include="Models\Tbl_SH_Trucks.cs" />
+    <Compile Include="Models\Tbl_SIK_Branches.cs" />
+    <Compile Include="Models\Tbl_SIK_Company.cs" />
+    <Compile Include="Models\Tbl_SIK_File.cs" />
+    <Compile Include="Models\Tbl_SIK_Menu.cs" />
+    <Compile Include="Models\Tbl_SIK_Profiles.cs" />
+    <Compile Include="Models\Tbl_SIK_Profiles_Production.cs" />
+    <Compile Include="Models\Tbl_SIK_Profiles_Rights.cs" />
+    <Compile Include="Models\Tbl_SIK_Users.cs" />
+    <Compile Include="Models\Tbl_SIK_Users_SC.cs" />
+    <Compile Include="Models\Tbl_WH_Adjustemens.cs" />
+    <Compile Include="Models\Tbl_WH_Adjustemens_Details.cs" />
+    <Compile Include="Models\Tbl_WH_Conversions.cs" />
+    <Compile Include="Models\Tbl_WH_Conversions_Materials.cs" />
+    <Compile Include="Models\Tbl_WH_Materials.cs" />
+    <Compile Include="Models\Tbl_WH_Materials_BOM.cs" />
+    <Compile Include="Models\Tbl_WH_Materials_Convertions.cs" />
+    <Compile Include="Models\Tbl_WH_Materials_Families.cs" />
+    <Compile Include="Models\Tbl_WH_Materials_Subs.cs" />
+    <Compile Include="Models\Tbl_WH_Materials_UM.cs" />
+    <Compile Include="Models\Tbl_WH_Materials_Vendors.cs" />
+    <Compile Include="Models\Tbl_WH_Materials_WH.cs" />
+    <Compile Include="Models\Tbl_WH_Receptions.cs" />
+    <Compile Include="Models\Tbl_WH_Receptions_Barcodes.cs" />
+    <Compile Include="Models\Tbl_WH_Receptions_Materials.cs" />
+    <Compile Include="Models\Tbl_WH_Returns.cs" />
+    <Compile Include="Models\Tbl_WH_Returns_Materials.cs" />
+    <Compile Include="Models\Tbl_WH_Warehouses.cs" />
+    <Compile Include="Models\Tbl_WH_Warehouses_Sections.cs" />
+    <Compile Include="PaymentDetails.aspx.cs">
+      <DependentUpon>PaymentDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentDetails.aspx.designer.cs">
+      <DependentUpon>PaymentDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentSearch.aspx.cs">
+      <DependentUpon>PaymentSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaymentSearch.aspx.designer.cs">
+      <DependentUpon>PaymentSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalesOrderHistory.aspx.cs">
+      <DependentUpon>SalesOrderHistory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SalesOrderHistory.aspx.designer.cs">
+      <DependentUpon>SalesOrderHistory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="Site.Master" />
+    <Content Include="Bundle.config" />
+    <Content Include="Scripts\jquery-3.2.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.2.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54673</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54673/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
