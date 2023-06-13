@@ -39,7 +39,6 @@
                                 
                                             <asp:TemplateField>
                                                 <ItemTemplate>
-                                                    <asp:BoundField DataField = "Details" HeaderStyle-ForeColor = "White" HeaderStyle-BackColor = "#b00505" HeaderText = "Details" SortExpression = "Details" ReadOnly = "true" InsertVisible = "false"/>
                                                     <asp:Button runat="server" ID="btnDetails" Text="Details" Width="75px" CssClass="botonForm" OnClick="btnDetails_Click" />
                                                 </ItemTemplate> 
                                             </asp:TemplateField>
