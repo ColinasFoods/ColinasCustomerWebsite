@@ -38,8 +38,9 @@
                                             
                                 
                                             <asp:TemplateField>
-                                                <HeaderTemplate>
-                                                    Details
+                                                <HeaderTemplate> 
+                                                    <HeaderStyle>
+                                                      Details
                                                 </HeaderTemplate>
                                                 <ItemTemplate>
                                                     <asp:Button runat="server" ID="btnDetails" Text="Details" Width="75px" CssClass="botonForm" OnClick="btnDetails_Click" />
