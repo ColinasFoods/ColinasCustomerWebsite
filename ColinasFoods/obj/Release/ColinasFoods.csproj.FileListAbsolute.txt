@@ -9,3 +9,15 @@ C:\Documenta Sapi\Sistemas\Colinas Foods\ColinasFoods\ColinasFoods\bin\EntityFra
 C:\Documenta Sapi\Sistemas\Colinas Foods\ColinasFoods\ColinasFoods\obj\Release\ColinasFoods.dll
 C:\Documenta Sapi\Sistemas\Colinas Foods\ColinasFoods\ColinasFoods\obj\Release\ColinasFoods.pdb
 C:\Documenta Sapi\Sistemas\Colinas Foods\ColinasFoods\ColinasFoods\obj\Release\ColinasFoods.csprojResolveAssemblyReference.cache
+C:\Users\maudi\Desktop\ColinasFoodsWebsite\ColinasFoods\bin\ColinasFoods.dll.config
+C:\Users\maudi\Desktop\ColinasFoodsWebsite\ColinasFoods\bin\ColinasFoods.dll
+C:\Users\maudi\Desktop\ColinasFoodsWebsite\ColinasFoods\bin\ColinasFoods.pdb
+C:\Users\maudi\Desktop\ColinasFoodsWebsite\ColinasFoods\bin\EntityFramework.dll
+C:\Users\maudi\Desktop\ColinasFoodsWebsite\ColinasFoods\bin\EntityFramework.SqlServer.dll
+C:\Users\maudi\Desktop\ColinasFoodsWebsite\ColinasFoods\bin\Owin.dll
+C:\Users\maudi\Desktop\ColinasFoodsWebsite\ColinasFoods\bin\EntityFramework.xml
+C:\Users\maudi\Desktop\ColinasFoodsWebsite\ColinasFoods\bin\EntityFramework.SqlServer.xml
+C:\Users\maudi\Desktop\ColinasFoodsWebsite\ColinasFoods\obj\Release\ColinasFoods.csproj.CoreCompileInputs.cache
+C:\Users\maudi\Desktop\ColinasFoodsWebsite\ColinasFoods\obj\Release\ColinasFoods.csproj.CopyComplete
+C:\Users\maudi\Desktop\ColinasFoodsWebsite\ColinasFoods\obj\Release\ColinasFoods.dll
+C:\Users\maudi\Desktop\ColinasFoodsWebsite\ColinasFoods\obj\Release\ColinasFoods.pdb

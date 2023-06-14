@@ -35,33 +35,33 @@
                         <tr>
                             <td align="center" width="100%">
                                 <asp:Panel ID="BalancePanel" runat="server" ScrollBars="Auto" style="width:auto;height:auto;">
-                                    <asp:GridView ID="BalancesGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black" Width="1200px" ShowHeaderWhenEmpty="true" runat="server" AutoGenerateColumns="False"  CssClass="Grid"  BackColor="White" BorderColor="#196F3D" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" OnRowDataBound="BalancesGrid_RowDataBound" ShowFooter="true" DataKeyNames="InvoiceNo">
+                                    <asp:GridView ID="BalancesGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black" Width="1200px" ShowHeaderWhenEmpty="true" runat="server" AutoGenerateColumns="False"  CssClass="Grid"  BackColor="White" BorderColor="#b00505" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" OnRowDataBound="BalancesGrid_RowDataBound" ShowFooter="true" DataKeyNames="InvoiceNo">
                             
                                         <Columns>
                                      
-                                            <asp:BoundField DataField="InvoiceNo" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#196F3D" HeaderText="Invoice #" ReadOnly="True" InsertVisible="False" />
+                                            <asp:BoundField DataField="InvoiceNo" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Invoice #" ReadOnly="True" InsertVisible="False" />
                                     
-                                            <asp:BoundField DataField="InvoiceDate" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#196F3D" HeaderText="Invoice Date"  ReadOnly="true" InsertVisible="false" />
+                                            <asp:BoundField DataField="InvoiceDate" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Invoice Date"  ReadOnly="true" InsertVisible="false" />
                                     
-                                            <asp:BoundField DataField="InvoicePDueDate"  HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#196F3D" HeaderText="Due Date"   ReadOnly="true" InsertVisible="false" />
+                                            <asp:BoundField DataField="InvoicePDueDate"  HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Due Date"   ReadOnly="true" InsertVisible="false" />
                                             
-                                            <asp:BoundField DataField="PTDescription" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#196F3D" HeaderText="Terms" ReadOnly="True" InsertVisible="False" />
+                                            <asp:BoundField DataField="PTDescription" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Terms" ReadOnly="True" InsertVisible="False" />
                                     
-                                            <asp:BoundField DataField="Balance" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#196F3D" HeaderText="Balance"  ReadOnly="true" InsertVisible="false" />
+                                            <asp:BoundField DataField="Balance" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Balance"  ReadOnly="true" InsertVisible="false" />
                                     
-                                            <asp:BoundField DataField="OnTime" DataFormatString="{0:C}"  HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#196F3D" HeaderText="On Time"   ReadOnly="true" InsertVisible="false" />
+                                            <asp:BoundField DataField="OnTime" DataFormatString="{0:C}"  HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="On Time"   ReadOnly="true" InsertVisible="false" />
                                             
-                                            <asp:BoundField DataField="P130" DataFormatString="{0:C}"  HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#196F3D" HeaderText="1 - 30"   ReadOnly="true" InsertVisible="false" />
+                                            <asp:BoundField DataField="P130" DataFormatString="{0:C}"  HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="1 - 30"   ReadOnly="true" InsertVisible="false" />
                                             
-                                            <asp:BoundField DataField="P3160" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#196F3D" HeaderText="31 - 60" ReadOnly="True" InsertVisible="False" />
+                                            <asp:BoundField DataField="P3160" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="31 - 60" ReadOnly="True" InsertVisible="False" />
                                     
-                                            <asp:BoundField DataField="P6190" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#196F3D" HeaderText="61 - 90"  ReadOnly="true" InsertVisible="false" />
+                                            <asp:BoundField DataField="P6190" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="61 - 90"  ReadOnly="true" InsertVisible="false" />
                                     
-                                            <asp:BoundField DataField="P91" DataFormatString="{0:C}"  HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#196F3D" HeaderText="90+"   ReadOnly="true" InsertVisible="false" />
+                                            <asp:BoundField DataField="P91" DataFormatString="{0:C}"  HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="90+"   ReadOnly="true" InsertVisible="false" />
 
                                         </Columns>
 
-                                        <FooterStyle BackColor="#196F3D" Font-Bold="true" HorizontalAlign="Right" ForeColor="White" />
+                                        <FooterStyle BackColor="#b00505" Font-Bold="true" HorizontalAlign="Right" ForeColor="White" />
 
                                     </asp:GridView>
                            

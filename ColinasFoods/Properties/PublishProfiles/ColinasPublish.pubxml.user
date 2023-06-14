@@ -8,151 +8,158 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwJHK2VI/cUSEmRdbPhPwzQAAAAACAAAAAAAQZgAAAAEAACAAAAC99LYTuDWvMioqkBT02Cl4k5NJiAKusms/0lpwpjH4EgAAAAAOgAAAAAIAACAAAAA+4JPJ6NC/TPpYOQE9jCIt3nDL/e0KL80OvA6E0UqRCyAAAABlLlfyhOIx687FBFbY666BIryuWAOk/Stggujk5apxGUAAAABnZ5hpXiMlIYO1UuqKQLw/j4x+sZmC9xxhMMNCDbsQUe4fUZx56Mc5+/s1sRnIB4Hhq31SE1hC+4Zhn844vKnn</EncryptedPassword>
     <_PublishTargetUrl>ftp://colinasproducts.com/website</_PublishTargetUrl>
+    <History>True|2023-06-14T16:44:36.5594500Z;True|2023-06-14T11:34:25.2941750-05:00;False|2023-06-14T11:31:53.6008340-05:00;False|2023-06-14T11:28:18.0815882-05:00;False|2023-06-14T11:27:21.6890496-05:00;False|2023-06-14T11:26:08.8757405-05:00;False|2023-06-14T11:23:48.7773888-05:00;False|2023-06-14T11:23:18.0397475-05:00;True|2023-06-14T11:12:23.7732219-05:00;False|2023-06-14T11:09:19.0544526-05:00;False|2023-06-14T11:02:40.1705472-05:00;</History>
   </PropertyGroup>
   <ItemGroup>
     <File Include="AddNewSalesOrder.aspx">
-      <publishTime>10/27/2017 17:53:49</publishTime>
+      <publishTime>06/14/2023 11:23:05</publishTime>
     </File>
     <File Include="Balance.aspx">
-      <publishTime>10/27/2017 17:53:49</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="bin/ColinasFoods.dll">
-      <publishTime>01/16/2018 14:15:24</publishTime>
+      <publishTime>06/14/2023 11:32:30</publishTime>
+    </File>
+    <File Include="bin/ColinasFoods.pdb">
+      <publishTime>06/14/2023 11:32:30</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
-      <publishTime>10/23/2017 13:15:18</publishTime>
+      <publishTime>06/14/2023 10:56:34</publishTime>
     </File>
     <File Include="bin/EntityFramework.SqlServer.dll">
-      <publishTime>10/23/2017 13:15:20</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="bin/Owin.dll">
-      <publishTime>10/27/2017 17:53:51</publishTime>
+      <publishTime>06/14/2023 10:56:34</publishTime>
     </File>
     <File Include="Bundle.config">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="ColinasStyles.css">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 11:38:09</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css.map">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.min.css">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.min.css.map">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Content/bootstrap.css.map">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css.map">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="favicon.ico">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff2">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Images/addNew.png">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Images/bg.jpg">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Images/btn_contacts.png">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Images/btn_employee.png">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Images/btn_inventory.png">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Images/btn_logout.png">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Images/btn_logout_hover.png">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Images/btn_products.png">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Images/btn_sales.png">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Images/chosenPhaseBox.png">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Images/colinas_Logo.jpg">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Images/loading.gif">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
+    </File>
+    <File Include="Images/logo-Colinasjpg.jpg">
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Images/logoSapiG.png">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Images/logoSapiGB.png">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Images/Sapi-logo.jpg">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Images/shadowF.png">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="InvoiceSearch.aspx">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 11:38:09</publishTime>
     </File>
     <File Include="Login.aspx">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>01/06/2018 13:36:10</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="PaymentDetails.aspx">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="PaymentSearch.aspx">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 11:38:09</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>01/16/2018 14:15:29</publishTime>
+      <publishTime>06/14/2023 11:43:08</publishTime>
     </File>
     <File Include="SalesOrderHistory.aspx">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 11:38:09</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Scripts/jquery-1.12.4.js">
       <publishTime>10/27/2017 17:53:50</publishTime>
@@ -164,46 +171,46 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/27/2017 17:53:50</publishTime>
     </File>
     <File Include="Scripts/jquery-3.1.1.js">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Scripts/jquery-3.1.1.min.js">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Scripts/jquery-3.1.1.min.map">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Scripts/jquery-3.1.1.slim.js">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Scripts/jquery-3.1.1.slim.min.js">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Scripts/jquery-3.1.1.slim.min.map">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Scripts/jquery-3.2.1.js">
-      <publishTime>01/06/2018 13:36:10</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Scripts/jquery-3.2.1.min.js">
-      <publishTime>01/06/2018 13:36:09</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Scripts/jquery-3.2.1.min.map">
-      <publishTime>01/06/2018 13:36:09</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Scripts/jquery-3.2.1.slim.js">
-      <publishTime>01/06/2018 13:36:09</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Scripts/jquery-3.2.1.slim.min.js">
-      <publishTime>01/06/2018 13:36:09</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Scripts/jquery-3.2.1.slim.min.map">
-      <publishTime>01/06/2018 13:36:09</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.6.2.js">
       <publishTime>05/17/2017 14:48:34</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.8.3.js">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 10:56:33</publishTime>
     </File>
     <File Include="Scripts/respond.js">
       <publishTime>05/17/2017 14:48:34</publishTime>
@@ -281,13 +288,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/17/2017 14:48:25</publishTime>
     </File>
     <File Include="Site.Master">
-      <publishTime>10/27/2017 17:53:50</publishTime>
+      <publishTime>06/14/2023 11:38:09</publishTime>
     </File>
     <File Include="Site.Mobile.Master">
       <publishTime>05/17/2017 14:43:42</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/06/2018 13:47:27</publishTime>
+      <publishTime>06/14/2023 11:33:12</publishTime>
     </File>
   </ItemGroup>
 </Project>
