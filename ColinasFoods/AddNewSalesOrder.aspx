@@ -18,30 +18,10 @@
             <td>&nbsp</td>
             <td align="center">
                 <asp:Label runat="server" ID="LblCart" Text="Cart" CssClass="tablelabel" />
-            </td><%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AddNewSalesOrder.aspx.cs" Inherits="ColinasFoods.AddNewSalesOrder" MaintainScrollPositionOnPostback="true" %>
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <script>
-        $(document).ready(function () {
-            $('.datepicker-field').datepicker({
-                minDate: 1
-            });
-        });
-    </script>
-    <asp:Panel runat="server" Width="100%">
-    <table>
-        <tr>
-            <td align="center">
-                <asp:Button ID="BtnOrdered" Width="200px" Text="Ordered Items" runat="server" CssClass="botonForm2" OnClick="BtnOrdered_Click"/>
-                &nbsp;&nbsp;&nbsp;
-                <asp:Button ID="BtnOther" Width="200px" Text="Other Items" runat="server" CssClass="botonForm2" OnClick="BtnOther_Click"  />
             </td>
-            <td>&nbsp;</td>
-            <td align="center">
-                <asp:Label runat="server" ID="LblCart" Text="Cart" CssClass="tablelabel" />
-            </td>
-        </tr>
+            </tr>
     </table>
-    
+    <table>
         <tr>
             <td>
                 <asp:Panel runat="server" style="width:45%;height:400px;overflow:auto;">
@@ -112,7 +92,7 @@
     
 </asp:Content>
 
-        </tr>
+        
         <tr>
             <td>
                 <asp:Panel runat="server" Width="100%">

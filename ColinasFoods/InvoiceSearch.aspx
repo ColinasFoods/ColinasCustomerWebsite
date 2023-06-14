@@ -8,12 +8,12 @@
     </script>
     <style>
         .scroll-panel {
-            width: auto;
+            width: 500px;
             height: 600px;
             max-height: 600px;
             overflow: auto;
             color: #b00505;
-            padding: 10px;
+            padding: 2px;
             margin-bottom: 10px;
         }
     </style>
@@ -101,7 +101,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <asp:Panel ID="InvoiceDetailsPanel" runat="server" ScrollBars="Auto">
+                                            <asp:Panel ID="InvoiceDetailsPanel" runat="server" style="padding: 0px; width:auto;height:600px;overflow:auto;">
                                                 <asp:GridView ID="DetailsGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black"  runat="server" AutoGenerateColumns="False"  CssClass="Grid"  BackColor="White" BorderColor="#b00505" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource2" DataKeyNames="InvoiceDetailsID">
                             
                                                     <Columns>

@@ -105,14 +105,13 @@ table tr td a:visited {
 
 
 #titlediv {
-	position: fixed;
+	position: absolute;
 	top: 85px;
 	width: 100%;
 	height: 30px;
 	z-index: 1;
 	border: none;
 	background-color:#b00505;
-	
 	background-position: top center;
 	background-repeat:no-repeat;
 }
