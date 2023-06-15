@@ -19,7 +19,11 @@
                         </tr>
                         <tr>
                             <td width="40%" valign="top" align="center">
+<<<<<<< Updated upstream
                                 <asp:Panel ID="SalesPanel" runat="server"  ScrollBars ="Auto" style="padding: 0px; width:590px;height:600px;overflow:auto;">
+=======
+                                <asp:Panel ID="SalesPanel" runat="server" ScrollBars="Auto" style="width:600px;height:600px;overflow:auto;">
+>>>>>>> Stashed changes
                                     
                                 <asp:Button ID="BtnAddNewSO" Width="200px" Text="New Sales Order" runat="server" CssClass="botonForm" OnClick="BtnAddNewSO_Click" />
                            

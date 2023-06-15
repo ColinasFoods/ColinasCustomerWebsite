@@ -43,7 +43,11 @@
                         </tr>
                         <tr>
                             <td width="40%">
+<<<<<<< Updated upstream
                                 <asp:Panel ID="PaymentPanel" align="Center" runat="server" ScrollBars="Auto" style="width: 500px;height:600px;overflow:auto;">
+=======
+                                <asp:Panel ID="PaymentPanel" align="Center" runat="server" ScrollBars="Auto" style="width:500px;height:600px;overflow:auto;">
+>>>>>>> Stashed changes
                                     <asp:GridView ID="PaymentsGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black"  ShowHeaderWhenEmpty="true" runat="server" AutoGenerateColumns="False"  CssClass="Grid"  BackColor="White" BorderColor="#b00505" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" ShowFooter="true" OnRowDataBound="PaymentsGrid_RowDataBound" DataKeyNames="PaymentAplicationID">
                             
                                         <Columns>

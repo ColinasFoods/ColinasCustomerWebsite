@@ -105,7 +105,11 @@ table tr td a:visited {
 
 
 #titlediv {
+<<<<<<< Updated upstream
 	position: absolute;
+=======
+	position: relative;
+>>>>>>> Stashed changes
 	top: 85px;
 	width: 100%;
 	height: 30px;
@@ -163,7 +167,7 @@ table tr td a:visited {
 }
 
 .headerlabel {
-    font-family:'Bodoni MT Black';
+    /*font-family:'Bodoni MT Black';*/
     font-size: 38px;
     font-weight:bold;
     color:#b00505;
