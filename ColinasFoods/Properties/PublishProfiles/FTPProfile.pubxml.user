@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAWtLsDLcc40+douGBD0R+lQAAAAACAAAAAAAQZgAAAAEAACAAAAD37fRJd8v4uF1733vsH+EXg5nEfrEs8GlZi9jG2wX+rgAAAAAOgAAAAAIAACAAAAAdDt25I3yXFVkW+JB1Txbmv/8bW4oOX2v+4K9t1PevoSAAAACKp8/kEfczp29YRwBh6LYuaLB05RR6giMFmbpM4jIWzUAAAABX+Hf7otnjQR3IlFH9p8QkdtX1JL0z7WwLWlmQf2Oit5qAjSKbYFGjs4a33XsYAsdcJ9AaS7x8/oBUzTItc/Gp</EncryptedPassword>
+    <_PublishTargetUrl>ftp://colinasproducts.com/website</_PublishTargetUrl>
+    <History>True|2023-06-15T18:19:07.4124620Z;False|2023-06-15T13:17:53.4897838-05:00;False|2023-06-15T11:04:20.0725888-05:00;False|2023-06-15T10:56:13.6114718-05:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AddNewSalesOrder.aspx">
+      <publishTime>06/14/2023 15:07:25</publishTime>
+    </File>
+    <File Include="Balance.aspx">
+      <publishTime>06/14/2023 15:18:13</publishTime>
+    </File>
+    <File Include="bin/ColinasFoods.dll">
+      <publishTime>06/15/2023 11:02:13</publishTime>
+    </File>
+    <File Include="bin/ColinasFoods.pdb">
+      <publishTime>06/15/2023 11:02:13</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>06/13/2023 20:37:12</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>06/13/2023 20:37:12</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>06/13/2023 20:37:12</publishTime>
+    </File>
+    <File Include="Bundle.config">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="ColinasStyles.css">
+      <publishTime>06/14/2023 15:01:39</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Images/addNew.png">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Images/bg.jpg">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Images/btn_contacts.png">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Images/btn_employee.png">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Images/btn_inventory.png">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Images/btn_logout.png">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Images/btn_logout_hover.png">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Images/btn_products.png">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Images/btn_sales.png">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Images/chosenPhaseBox.png">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Images/colinas_Logo.jpg">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Images/loading.gif">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Images/logo-Colinasjpg.jpg">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Images/logoSapiG.png">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Images/logoSapiGB.png">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Images/Sapi-logo.jpg">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Images/shadowF.png">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="InvoiceSearch.aspx">
+      <publishTime>06/14/2023 15:01:39</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>06/14/2023 10:54:25</publishTime>
+    </File>
+    <File Include="Main.aspx">
+      <publishTime>06/14/2023 15:30:54</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>06/13/2023 20:37:34</publishTime>
+    </File>
+    <File Include="PaymentDetails.aspx">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="PaymentSearch.aspx">
+      <publishTime>06/14/2023 15:01:39</publishTime>
+    </File>
+    <File Include="SalesOrderHistory.aspx">
+      <publishTime>06/14/2023 15:01:39</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.js">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.min.js">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.min.map">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.js">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.min.js">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.min.map">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.js">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.min.js">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.min.map">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.slim.js">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.slim.min.js">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.2.1.slim.min.map">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>06/13/2023 20:37:11</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>06/15/2023 10:35:11</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/15/2023 13:17:53</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

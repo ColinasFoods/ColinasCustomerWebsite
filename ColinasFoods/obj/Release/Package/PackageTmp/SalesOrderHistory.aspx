@@ -34,8 +34,14 @@
                                             <asp:BoundField DataField="RequiredDate" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Required Date"  SortExpression="RequiredDate" ReadOnly="true" InsertVisible="false" />
                                            
                                             <asp:BoundField DataField="Total" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Total $"  SortExpression="Total" ReadOnly="true" InsertVisible="false" />
+
+                                            
                                 
                                             <asp:TemplateField>
+                                                <HeaderStyle BackColor="#b00505" />
+                                                <HeaderTemplate>
+                                                    <asp:Label runat="server" Text="Details" ssClass="Grid th" />
+                                                </HeaderTemplate>
                                                 <ItemTemplate>
                                                     <asp:Button runat="server" ID="btnDetails" Text="Details" Width="75px" CssClass="botonForm" OnClick="btnDetails_Click" />
                                                 </ItemTemplate> 

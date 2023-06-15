@@ -42,6 +42,10 @@
                         <asp:Label CssClass="navLabel" ID="LblBalance" runat="server" Text="Balance" /></a>
                     </td>
 
+                    <td height="20" align="left" valign="middle"><a href="Main.aspx">
+                        <asp:Label CssClass="navLabel" ID="LblMain" runat="server" Text="Main" /></a>
+                    </td>
+
                     <td height="20" align="left" valign="middle" width="200px"> &nbsp</td>
                 </tr>
             </table>

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/resources/demos/style.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 </head>
 
 <body>
@@ -39,6 +40,10 @@
 
                     <td height="20" align="left" valign="middle"><a href="Balance.aspx">
                         <asp:Label CssClass="navLabel" ID="LblBalance" runat="server" Text="Balance" /></a>
+                    </td>
+
+                    <td height="20" align="left" valign="middle"><a href="Main.aspx">
+                        <asp:Label CssClass="navLabel" ID="LblMain" runat="server" Text="Main" /></a>
                     </td>
 
                     <td height="20" align="left" valign="middle" width="200px"> &nbsp</td>

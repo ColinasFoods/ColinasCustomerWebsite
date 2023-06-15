@@ -6,6 +6,18 @@
             $('.datepicker-field').datepicker();
         });
     </script>
+    <style>
+        .scroll-panel {
+            width: auto;
+            height: 600px;
+            max-height: 600px;
+            overflow: auto;
+            color: #b00505;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+
     <table id="OuterTable" width="100%">
         <tr>
             <td>
@@ -44,7 +56,8 @@
                         </tr>
                         <tr>
                             <td width="40%" valign="top" align="Center" >
-                               <asp:Panel ID="InvoicePanel" runat="server" style="width:auto;height:600px;overflow:auto;">
+                                <div class="scroll-panel">
+                               <asp:Panel ID="InvoicePanel" runat="server">
                                     <asp:GridView ID="InvoicesGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black"  ShowHeaderWhenEmpty="true" runat="server" AutoGenerateColumns="False"  CssClass="Grid"  BackColor="White" BorderColor="#b00505" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" DataKeyNames="InvoiceID" OnRowDataBound="InvoicesGrid_RowDataBound" ShowFooter="True">
                             
                                         <Columns>
@@ -58,6 +71,10 @@
                                             
 
                                             <asp:TemplateField>
+                                                <HeaderStyle BackColor="#b00505" />
+                                                <HeaderTemplate>
+                                                    <asp:Label runat="server" Text="Details" ssClass="Grid th" />
+                                                </HeaderTemplate>
                                                 <ItemTemplate>
                                                     <asp:Button runat="server" ID="btnDetails" Text="Details" Width="75px" CssClass="botonForm" OnClick="btnDetails_Click" />
                                                 </ItemTemplate> 

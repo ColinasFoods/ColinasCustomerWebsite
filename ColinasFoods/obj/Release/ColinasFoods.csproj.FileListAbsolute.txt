@@ -21,3 +21,16 @@ C:\Users\maudi\Desktop\ColinasFoodsWebsite\ColinasFoods\obj\Release\ColinasFoods
 C:\Users\maudi\Desktop\ColinasFoodsWebsite\ColinasFoods\obj\Release\ColinasFoods.csproj.CopyComplete
 C:\Users\maudi\Desktop\ColinasFoodsWebsite\ColinasFoods\obj\Release\ColinasFoods.dll
 C:\Users\maudi\Desktop\ColinasFoodsWebsite\ColinasFoods\obj\Release\ColinasFoods.pdb
+C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\bin\ColinasFoods.dll.config
+C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\bin\ColinasFoods.dll
+C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\bin\ColinasFoods.pdb
+C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\bin\EntityFramework.dll
+C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\bin\EntityFramework.SqlServer.dll
+C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\bin\Owin.dll
+C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\bin\EntityFramework.xml
+C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\bin\EntityFramework.SqlServer.xml
+C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\obj\Release\ColinasFoods.csproj.AssemblyReference.cache
+C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\obj\Release\ColinasFoods.csproj.CoreCompileInputs.cache
+C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\obj\Release\ColinasFoods.csproj.CopyComplete
+C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\obj\Release\ColinasFoods.dll
+C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\obj\Release\ColinasFoods.pdb
