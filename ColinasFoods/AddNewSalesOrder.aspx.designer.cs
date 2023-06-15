@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ColinasFoods {
-    
-    
-    public partial class AddNewSalesOrder {
-        
+namespace ColinasFoods
+{
+
+
+    public partial class AddNewSalesOrder
+    {
+
         /// <summary>
         /// BtnOrdered control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace ColinasFoods {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnOrdered;
-        
+
         /// <summary>
         /// BtnOther control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace ColinasFoods {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnOther;
-        
+
         /// <summary>
         /// LblCart control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace ColinasFoods {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label LblCart;
-        
+
         /// <summary>
         /// TxtFilter control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace ColinasFoods {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtFilter;
-        
+
         /// <summary>
         /// ItemsGrid control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace ColinasFoods {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView ItemsGrid;
-        
+
         /// <summary>
         /// SqlDataSource1 control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace ColinasFoods {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
-        
+
         /// <summary>
         /// CartGrid control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace ColinasFoods {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView CartGrid;
-        
+
         /// <summary>
         /// TxtStartDate control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace ColinasFoods {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtStartDate;
-        
+
         /// <summary>
         /// BtnSubmit control.
         /// </summary>
@@ -92,5 +94,6 @@ namespace ColinasFoods {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnSubmit;
+
     }
 }

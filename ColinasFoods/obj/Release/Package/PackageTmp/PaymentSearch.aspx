@@ -43,25 +43,29 @@
                         </tr>
                         <tr>
                             <td width="40%">
-                                <asp:Panel ID="PaymentPanel" align="Center" runat="server" ScrollBars="Auto" style="width:auto;height:auto;">
-                                    <asp:GridView ID="PaymentsGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black"  ShowHeaderWhenEmpty="true" runat="server" AutoGenerateColumns="False"  CssClass="Grid"  BackColor="White" BorderColor="#196F3D" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" ShowFooter="true" OnRowDataBound="PaymentsGrid_RowDataBound" DataKeyNames="PaymentAplicationID">
+                                <asp:Panel ID="PaymentPanel" align="Center" runat="server" ScrollBars="Auto" style="width:auto;height:600px;overflow:auto;">
+                                    <asp:GridView ID="PaymentsGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black"  ShowHeaderWhenEmpty="true" runat="server" AutoGenerateColumns="False"  CssClass="Grid"  BackColor="White" BorderColor="#b00505" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" ShowFooter="true" OnRowDataBound="PaymentsGrid_RowDataBound" DataKeyNames="PaymentAplicationID">
                             
                                         <Columns>
                                      
-                                            <asp:BoundField DataField="PaymentNo" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#196F3D" HeaderText="Payment #" ReadOnly="True" InsertVisible="False" />
+                                            <asp:BoundField DataField="PaymentNo" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Payment #" ReadOnly="True" InsertVisible="False" />
                                     
-                                            <asp:BoundField DataField="PaymentDate" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#196F3D" HeaderText="Payment Date"  ReadOnly="true" InsertVisible="false" />
+                                            <asp:BoundField DataField="PaymentDate" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Payment Date"  ReadOnly="true" InsertVisible="false" />
                                     
-                                            <asp:BoundField DataField="PaymentTotal" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#196F3D" HeaderText="Total Payment"   ReadOnly="true" InsertVisible="false" />
+                                            <asp:BoundField DataField="PaymentTotal" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Total Payment"   ReadOnly="true" InsertVisible="false" />
                                             
                                             <asp:TemplateField>
+                                                <HeaderStyle BackColor="#b00505" />
+                                                    <HeaderTemplate>
+                                                        <asp:Label runat="server" Text="Details" ssClass="Grid th" />
+                                                </HeaderTemplate>
                                                 <ItemTemplate>
                                                     <asp:Button runat="server" ID="btnDetails" Text="Details" Width="75px" CssClass="botonForm" OnClick="btnDetails_Click" />
                                                 </ItemTemplate> 
                                             </asp:TemplateField>
                                         </Columns>
 
-                                        <FooterStyle BackColor="#196F3D" Font-Bold="true" HorizontalAlign="Right" ForeColor="White" />
+                                        <FooterStyle BackColor="#b00505" Font-Bold="true" HorizontalAlign="Right" ForeColor="White" />
 
                                     </asp:GridView>
                            
@@ -74,23 +78,23 @@
                                     <tr>
                                         <td>
                                             PaymentNo:&nbsp&nbsp
-                                            <asp:Textbox ID="TxtPaymentNo" runat="server" ReadOnly="true" BackColor="Yellow"></asp:Textbox>
+                                            <asp:Textbox ID="TxtPaymentNo" runat="server" ReadOnly="true" BackColor="White"></asp:Textbox>
                                             &nbsp&nbsp&nbsp&nbsp Total:&nbsp&nbsp
-                                            <asp:TextBox ID="TxtPaymentTotal" runat="server" ReadOnly="true" BackColor="Yellow"></asp:TextBox>
+                                            <asp:TextBox ID="TxtPaymentTotal" runat="server" ReadOnly="true" BackColor="White"></asp:TextBox>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <asp:Panel ID="PaymentDetailsPanel" runat="server" ScrollBars="Auto">
-                                                <asp:GridView ID="DetailsGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black"  runat="server" width="500px" AutoGenerateColumns="False"  CssClass="Grid"  BackColor="White" BorderColor="#196F3D" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource2" DataKeyNames="PaymentReceivedID">
+                                                <asp:GridView ID="DetailsGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black"  runat="server" width="500px" AutoGenerateColumns="False"  CssClass="Grid"  BackColor="White" BorderColor="#b00505" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource2" DataKeyNames="PaymentReceivedID">
                             
                                                     <Columns>
                                      
-                                                        <asp:BoundField DataField="InvoiceNo" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#196F3D" HeaderText="Invoice #" ReadOnly="True" InsertVisible="False" />
+                                                        <asp:BoundField DataField="InvoiceNo" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Invoice #" ReadOnly="True" InsertVisible="False" />
                                      
-                                                        <asp:BoundField DataField="Total" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#196F3D" HeaderText="Invoice Total" ReadOnly="True" InsertVisible="False" />
+                                                        <asp:BoundField DataField="Total" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Invoice Total" ReadOnly="True" InsertVisible="False" />
                                     
-                                                        <asp:BoundField DataField="Amount" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#196F3D" HeaderText="Payment" ReadOnly="true" InsertVisible="false" />
+                                                        <asp:BoundField DataField="Amount" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Payment" ReadOnly="true" InsertVisible="false" />
 
                                                     </Columns>
 

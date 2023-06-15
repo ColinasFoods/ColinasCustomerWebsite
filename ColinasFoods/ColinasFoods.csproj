@@ -104,6 +104,7 @@
     <Content Include="Images\shadowF.png" />
     <Content Include="InvoiceSearch.aspx" />
     <Content Include="Login.aspx" />
+    <Content Include="Main.aspx" />
     <Content Include="PaymentDetails.aspx" />
     <Content Include="PaymentSearch.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -116,6 +117,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Properties\PublishProfiles\ColinasPublish.pubxml" />
     <Content Include="SalesOrderHistory.aspx" />
+    <None Include="Properties\PublishProfiles\FTPProfile.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -161,6 +163,13 @@
     </Compile>
     <Compile Include="Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\ColinasProductsModel.cs" />
     <Compile Include="Models\Tbl_Ac_Accounts.cs" />
