@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     "",
     "\\ColinasFoods"
+=======
+    ""
+>>>>>>> b8ef31f (new branch)
   ],
   "SelectedNode": "\\ColinasFoods.sln",
   "PreviewInSolutionExplorer": false
