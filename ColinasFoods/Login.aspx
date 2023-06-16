@@ -25,6 +25,7 @@
             <td align="right" valign="middle">&nbsp;</td>
             <td align="left" valign="middle"> 
                 <asp:TextBox ID="tb_Password" runat="server" TextMode="Password" CssClass="form_Form"></asp:TextBox>
+
             </td>
             <td align="left" valign="middle"> <br />
                 <asp:RequiredFieldValidator ID="RequiredFieldValidatorPassword" CssClass="txt_validate" runat="server" ControlToValidate="tb_Password" ErrorMessage="Password is required"></asp:RequiredFieldValidator>
@@ -45,14 +46,34 @@
         </tr>
         
     </table>
-
-    <!-- JavaScript code -->
     <script>
+        (function (window, document, undefined) {
+
+            function init() {
+                var input = document.getElementById('<%= tb_Password.ClientID %>');
+
+                // Execute a function when the user presses a key on the keyboard
+                input.addEventListener("keypress", function (event) {
+                    // If the user presses the "Enter" key on the keyboard
+                    if (event.key === "Enter") {
+                        // Cancel the default action, if needed
+                        event.preventDefault();
+                        // Trigger the button element with a click
+                        document.getElementById('<%=btn_LogIn.ClientID%>').click();
+                    }
+                });
+            }
+
+            window.onload = init;
+
+
+        })(window, document, undefined);
+
         // Function to toggle password visibility
         function PasswordVisibility() {
             var passwordField = document.getElementById('<%= tb_Password.ClientID %>');
             var passwordToggle = document.getElementById('btn_PasswordToggle');
-
+            console.log(passwordToggle);
             if (passwordField.type === 'password') {
                 passwordField.type = 'text';
                 passwordToggle.innerText = 'Hide';
@@ -62,12 +83,6 @@
             }
         }
         // Function to handle the key press event
-        function handleKeyPress(e) {
-            if (e.keyCode === 13) {
-                document.getElementById('<%= btn_LogIn.ClientID %>').click();
-                return false;
-            }
-        }
-        document.addEventListener('keypress', handleKeyPress);
+
     </script>
 </asp:Content>
