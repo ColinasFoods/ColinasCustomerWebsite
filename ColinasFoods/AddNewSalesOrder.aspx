@@ -90,4 +90,13 @@
     </table>
     </asp:Panel>
     
+<<<<<<< HEAD
 </asp:Content>  
+=======
+<<<<<<< HEAD
+</asp:Content>
+
+=======
+</asp:Content>  
+>>>>>>> 82a8f46 (addnewsalesorder fix)
+>>>>>>> e53d115 (rebase things)
