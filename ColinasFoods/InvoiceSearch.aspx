@@ -8,7 +8,7 @@
     </script>
     <style>
         .scroll-panel {
-            width: auto;
+            width: 500px;
             height: 600px;
             max-height: 600px;
             overflow: auto;

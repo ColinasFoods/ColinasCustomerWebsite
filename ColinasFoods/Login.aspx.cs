@@ -63,7 +63,7 @@ namespace ColinasFoods
                 if (output != null)
                 {
                     Session["CustomerID"] = Convert.ToInt32(output);
-                    Response.Redirect("InvoiceSearch.aspx", false);
+                    Response.Redirect("Main.aspx", false);
                 }
                 else
                 {
