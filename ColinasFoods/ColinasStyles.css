@@ -118,14 +118,16 @@ table tr td a:visited {
 }
 
 #head_page {
-    position: absolute;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    position: center;
     left: 350px;
     top: 20px;
-    width:800px;
-    height: 30px;
+    width:1541px;
+    height: 38px;
     z-index: 0;
-    border:  none;
-}
+    }
 
 .txt_login{
 	font-family:Verdana, Geneva, sans-serif;
@@ -163,11 +165,24 @@ table tr td a:visited {
 	color:#FFFFFF;
 }
 
+.subtitle{
+	font-family:'Bodoni MT Black';
+	font-size: 45px;
+	font-weight: bold;
+	width: 45px;
+	color: #b00505;
+	text-align:center;
+	position:center;
+	
+}
 .headerlabel {
     font-family:'Bodoni MT Black';
     font-size: 38px;
     font-weight:bold;
     color:#b00505;
+	top: 20px;
+	text-align:center;
+	position:relative;
 }
 
 .tablelabel {

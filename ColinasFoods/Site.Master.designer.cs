@@ -69,15 +69,6 @@ namespace ColinasFoods
         protected global::System.Web.UI.WebControls.Label LblMain;
 
         /// <summary>
-        /// LblHeaderTitle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LblHeaderTitle;
-
-        /// <summary>
         /// logout_link control.
         /// </summary>
         /// <remarks>
@@ -85,6 +76,15 @@ namespace ColinasFoods
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button logout_link;
+
+        /// <summary>
+        /// LblHeaderTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LblHeaderTitle;
 
         /// <summary>
         /// MainContent control.

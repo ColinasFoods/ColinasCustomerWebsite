@@ -25,7 +25,7 @@
     <table>
         <tr>
             <td>
-                <asp:Panel runat="server" style="width:45%;height:400px;overflow:auto;">
+                <asp:Panel runat="server" style="width:100%;height:400px;overflow:auto;">
                         <asp:TextBox runat="server" ID="TxtFilter" Width="100%" AutoPostBack="true" CssClass="form_Form" OnTextChanged="TxtFilter_TextChanged" placeholder="Search" />
                         <asp:GridView ID="ItemsGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black" OnSelectedIndexChanged="ItemsGrid_SelectedIndexChanged"  ShowHeaderWhenEmpty="true" EmptyDataText="No previously ordered items were found" runat="server" AutoGenerateColumns="False"  CssClass="Grid"  BackColor="White" BorderColor="#b00505" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" DataKeyNames="MaterialID">
                             
@@ -74,7 +74,7 @@
 
                             </Columns>
 
-                            <FooterStyle BackColor="#b00505" Font-Bold="true" HorizontalAlign="Right" ForeColor="White" />
+                            <FooterStyle BackColor="White" Font-Bold="true" HorizontalAlign="Right" ForeColor="Black" />
                     </asp:gridview>
                     <table>
                         <tr>
