@@ -21,9 +21,8 @@
             </td>
         </tr>
     </table>
-    <!-- Added Table Right Below -->
     <table>
-        <tr>
+        <tr>    
             <td>
                 <asp:Panel runat="server" style="width:100%;height:400px;overflow:auto;">
                         <asp:TextBox runat="server" ID="TxtFilter" Width="100%" AutoPostBack="true" CssClass="form_Form" OnTextChanged="TxtFilter_TextChanged" placeholder="Search" />
@@ -91,5 +90,4 @@
     </table>
     </asp:Panel>
     
-</asp:Content>
-
+</asp:Content>  
