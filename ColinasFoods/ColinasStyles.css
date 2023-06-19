@@ -165,7 +165,6 @@ table tr td a:visited {
 	color:#FFFFFF;
 }
 
-<<<<<<< HEAD
 .subtitle{
 	font-family:'Bodoni MT Black';
 	font-size: 45px;
@@ -177,19 +176,7 @@ table tr td a:visited {
 
 	
 }
-=======
-.subtitle {
-	font-family:'Bodoni MT Black';
-	font-size: 20px;
-	font-weight:bold;
-	width: 300px;
-	color:#b00505;
-	text-align:center;
-}
 
-
-
->>>>>>> 1e436c5 (Main page header)
 .headerlabel {
     font-family:'Bodoni MT Black';
     font-size: 50px;
