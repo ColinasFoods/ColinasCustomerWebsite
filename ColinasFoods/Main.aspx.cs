@@ -37,7 +37,7 @@ namespace ColinasFoods
                 {
                     Session["Check_Page_Refresh"] = DateTime.Now.ToString();
 
-                    
+
                 }
             }
         }
@@ -66,6 +66,76 @@ namespace ColinasFoods
                 if (ViewState["Check_Page_Refresh"].ToString() == Session["Check_Page_Refresh"].ToString())
                 {
                     Response.Redirect("AddNewSalesOrder.aspx", false);
+                    Context.ApplicationInstance.CompleteRequest();
+                }
+
+            }
+        }
+        protected void BtnBalance_Click(object sender, EventArgs e)
+        {
+            if ((Session["LoginTime"] == null))
+            {
+                Response.Redirect("Login.aspx", false);
+                Context.ApplicationInstance.CompleteRequest();
+            }
+            else
+            {
+                // Is Event Fired PostBack, NOT REFRESH
+                if (ViewState["Check_Page_Refresh"].ToString() == Session["Check_Page_Refresh"].ToString())
+                {
+                    Response.Redirect("Balance.aspx", false);
+                    Context.ApplicationInstance.CompleteRequest();
+                }
+            }
+
+        }
+        protected void BtnInvoice_Click(object sender, EventArgs e)
+        {
+            if ((Session["LoginTime"] == null))
+            {
+                Response.Redirect("Login.aspx", false);
+                Context.ApplicationInstance.CompleteRequest();
+            }
+            else
+            {
+                // Is Event Fired PostBack, NOT REFRESH
+                if (ViewState["Check_Page_Refresh"].ToString() == Session["Check_Page_Refresh"].ToString())
+                {
+                    Response.Redirect("InvoiceSearch.aspx", false);
+                    Context.ApplicationInstance.CompleteRequest();
+                }
+            }
+        }
+        protected void BtnOrderHistory_Click(object sender, EventArgs e)
+        {
+            if ((Session["LoginTime"] == null))
+            {
+                Response.Redirect("Login.aspx", false);
+                Context.ApplicationInstance.CompleteRequest();
+            }
+            else
+            {
+                // Is Event Fired PostBack, NOT REFRESH
+                if (ViewState["Check_Page_Refresh"].ToString() == Session["Check_Page_Refresh"].ToString())
+                {
+                    Response.Redirect("SalesOrderHistory.aspx", false);
+                    Context.ApplicationInstance.CompleteRequest();
+                }
+            }
+        }
+        protected void BtnPayment_Click(object sender, EventArgs e)
+        {
+            if ((Session["LoginTime"] == null))
+            {
+                Response.Redirect("Login.aspx", false);
+                Context.ApplicationInstance.CompleteRequest();
+            }
+            else
+            {
+                // Is Event Fired PostBack, NOT REFRESH
+                if (ViewState["Check_Page_Refresh"].ToString() == Session["Check_Page_Refresh"].ToString())
+                {
+                    Response.Redirect("PaymentSearch.aspx", false);
                     Context.ApplicationInstance.CompleteRequest();
                 }
             }
