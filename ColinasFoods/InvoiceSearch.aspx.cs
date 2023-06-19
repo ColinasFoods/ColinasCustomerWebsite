@@ -12,7 +12,6 @@ namespace ColinasFoods
     public partial class InvoiceSearch : System.Web.UI.Page
     {
         private Decimal _totalInvoice = 0;
-
         protected void Page_Load(object sender, EventArgs e)
         {
             if ((Session["LoginTime"] == null))
@@ -31,6 +30,7 @@ namespace ColinasFoods
                     _totalInvoice = 0;
                     LoadInvoices();
                 }
+                ColinasFoods.Essentials.HomeSeen = true;
             }
         }
 

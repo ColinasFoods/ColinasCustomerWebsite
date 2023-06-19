@@ -38,6 +38,7 @@ namespace ColinasFoods
                     ViewState["Procedure"] = "Sales_OrderedItems";
                     BtnOrdered.BackColor = System.Drawing.Color.FromArgb(73, 74, 84);
                 }
+                ColinasFoods.Essentials.HomeSeen = true;
             }
         }
 

@@ -55,6 +55,8 @@ namespace ColinasFoods
             cmd.CommandText = "Colinas_Login";
             cmd.Parameters.AddWithValue("user", username);
             cmd.Parameters.AddWithValue("pw", password);
+            Essentials.UserName = username;
+            Essentials.Password = password;
             cmd.Connection = con;
 
             try
