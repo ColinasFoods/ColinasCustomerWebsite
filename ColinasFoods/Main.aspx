@@ -1,9 +1,12 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Main.aspx.cs" Inherits="ColinasFoods.Main" %>
+<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Main.aspx.cs" Inherits="ColinasFoods.Main" %>
 
 <asp:Content ID = "BodyContent" ContentPlaceHolderID="MainContent" runat ="server">
     
     <div id ="Maindiv">
-        <table style ="margin-left:10px; margin-right:auto; margin-top: -40px;">
+        <asp:Panel runat="server" ID="WelcomeDiv">
+            <h1>Welcome Back <%= ColinasFoods.Essentials.UserName %></h1>
+        </asp:Panel>
+        <table style ="margin-left:auto; margin-right:auto; margin-top: -40px;">
             <tr>
                 <td align ="center">
                     <asp:Label align ="center" runat ="server" ID ="LblWelcome" CssClass="subtitle" Text ="About Us"/>

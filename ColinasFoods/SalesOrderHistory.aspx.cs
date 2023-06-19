@@ -27,6 +27,7 @@ namespace ColinasFoods
 
                     LoadOrderHistory();
                 }
+                ColinasFoods.Essentials.HomeSeen = true;
             }
         }
 
