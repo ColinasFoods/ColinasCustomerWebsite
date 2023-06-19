@@ -8,6 +8,29 @@ using System.Web.UI.WebControls;
 
 namespace ColinasFoods
 {
+    public static class Essentials
+    {
+        private static String username;
+        private static String password;
+        private static bool homeSeen;
+        public static String UserName
+        {
+            set { username = value; }
+            get { return username; }
+        }
+
+        public static String Password
+        {
+            set { password = value; }
+            get { return password; }
+        }
+        
+        public static bool HomeSeen
+        {
+            set { homeSeen = value; }
+            get { return homeSeen; }
+        }
+}
     public partial class SiteMaster : MasterPage
     {
         public string HeaderTitle
@@ -32,7 +55,6 @@ namespace ColinasFoods
             get { return logout_link.Visible; }
             set { logout_link.Visible = value; }
         }
-
 
         protected void logout_Click(object sender, EventArgs e)
         {

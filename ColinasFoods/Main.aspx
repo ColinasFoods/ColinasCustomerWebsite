@@ -3,6 +3,9 @@
 <asp:Content ID = "BodyContent" ContentPlaceHolderID="MainContent" runat ="server">
     
     <div id ="Maindiv">
+        <asp:Panel runat="server" ID="WelcomeDiv">
+            <h1>Welcome Back <%= ColinasFoods.Essentials.UserName %></h1>
+        </asp:Panel>
         <table style ="margin-left:auto; margin-right:auto; margin-top: -40px;">
             <tr>
                 <td align ="center">

@@ -15,6 +15,15 @@ namespace ColinasFoods
     {
 
         /// <summary>
+        /// WelcomeDiv control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel WelcomeDiv;
+
+        /// <summary>
         /// LblWelcome control.
         /// </summary>
         /// <remarks>
