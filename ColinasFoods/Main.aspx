@@ -4,7 +4,7 @@
     
     <div id ="Maindiv">
         <asp:Panel runat="server" ID="WelcomeDiv">
-            <h1>Welcome Back <%= ColinasFoods.Essentials.UserName %></h1>
+            <h1>Welcome back, <%= ColinasFoods.Essentials.UserName != null && ColinasFoods.Essentials.UserName.Length > 0 ? (Char.ToUpper(ColinasFoods.Essentials.UserName[0]) + ColinasFoods.Essentials.UserName.Substring(1)) : "" %></h1>
         </asp:Panel>
         <table style ="margin-left:auto; margin-right:auto; margin-top: -40px;">
             <tr>
