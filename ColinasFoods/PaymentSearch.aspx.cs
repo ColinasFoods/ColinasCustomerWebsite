@@ -21,7 +21,7 @@ namespace ColinasFoods
             }
             else
             {
-                ((SiteMaster)Master).HeaderTitle = "Payment Search";
+                ((SiteMaster)Master).HeaderTitle = "Payments";
                 Title = "Payments";
 
                 if (!IsPostBack)

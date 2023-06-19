@@ -26,6 +26,7 @@ namespace ColinasFoods
         protected void Page_Load(object sender, EventArgs e)
         {
             ((SiteMaster)Master).NavBarVisible = false;
+            ((SiteMaster)Master).logOutVisible = false;
             ((SiteMaster)Master).HeaderTitle = "Customer Login";
             Title = "Customer Login";
         }

@@ -27,6 +27,11 @@ namespace ColinasFoods
             get { return NavBar.Visible; }
             set { NavBar.Visible = value; }
         }
+        public bool logOutVisible
+        {
+            get { return logout_link.Visible; }
+            set { logout_link.Visible = value; }
+        }
 
 
         protected void logout_Click(object sender, EventArgs e)

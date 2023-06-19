@@ -19,6 +19,7 @@ namespace ColinasFoods
             }
             else
             {
+                ((SiteMaster)Master).NavBarVisible = false;
                 ((SiteMaster)Master).HeaderTitle = "Welcome to Colinas Foods";
                 Title = "Order History";
 
