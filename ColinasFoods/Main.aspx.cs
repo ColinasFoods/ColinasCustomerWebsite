@@ -140,6 +140,34 @@ namespace ColinasFoods
                 }
             }
         }
+
+        private void LoadOrderHistory()
+        {
+            try
+            {
+                int customerID = Convert.ToInt32(Session["CustomerID"]);
+
+                SqlDataSource1.SelectParameters.Clear();
+                SqlDataSource1.SelectParameters.Add("CustomerID", customerID.ToString());
+                ItemsGrid.DataSourceID = "SqlDataSource1";
+
+                ItemsGrid.DataBind();
+            }
+            catch (Exception ex)
+            {
+                String message = ex.Message;
+                Trace.Write("Error", "**Error in LoadOrderHistory**", ex);
+                //ErrorSignal.FromCurrentContext().Raise(ex);
+                ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('Cant Get Order History:" + message + "');", true);
+            }
+        }
+
+        protected void ItemsGrid_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         
+
     }
 }
