@@ -26,7 +26,7 @@ namespace ColinasFoods
             }
             else
             {
-                ((SiteMaster)Master).HeaderTitle = "Invoice Search";
+                ((SiteMaster)Master).HeaderTitle = "New Sales Order";
                 Title = "Add New Sales Order";
 
                 if (!IsPostBack)

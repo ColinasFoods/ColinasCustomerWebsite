@@ -22,7 +22,7 @@ namespace ColinasFoods
             }
             else
             {
-                ((SiteMaster)Master).HeaderTitle = "Invoice Search";
+                ((SiteMaster)Master).HeaderTitle = "Invoices";
                 Title = "Invoices";
 
                 if(!IsPostBack)

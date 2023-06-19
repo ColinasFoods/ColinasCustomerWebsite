@@ -61,7 +61,7 @@
 
                                         </Columns>
 
-                                        <FooterStyle BackColor="#b00505" Font-Bold="true" HorizontalAlign="Right" ForeColor="White" />
+                                        <FooterStyle BackColor="#b00505" Font-Bold="true" HorizontalAlign="Right" ForeColor="White"  BorderColor="Black" BorderStyle ="Solid" />
 
                                     </asp:GridView>
                            

@@ -178,7 +178,7 @@ table tr td a:visited {
 }
 .headerlabel {
     font-family:'Bodoni MT Black';
-    font-size: 38px;
+    font-size: 50px;
     font-weight:bold;
     color:#b00505;
 	top: 20px;
@@ -680,3 +680,15 @@ table tr td a:visited {
 .dropdown:hover .dropbtn {
     background-color: #b00505;
 }
+.homepageButtons 
+{
+	font-family: 'Bodoni MT Black';
+	font-size: 45px;
+	font-weight: bold;
+	width: 45px;
+	color: #b00505;
+	text-align: center;
+	position: center;
+}
+
+
