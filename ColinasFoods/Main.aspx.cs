@@ -44,7 +44,7 @@ namespace ColinasFoods
 
         public static string GetName()
         {
-            return Essentials.UserName;
+            return ColinasFoods.Essentials.UserName != null ? ColinasFoods.Essentials.UserName.ToCharArray()[0].ToString().ToUpper() + ColinasFoods.Essentials.UserName.Substring(1) : "Guest";
         }
 
         protected void Page_PreRender(object sender, EventArgs e)
