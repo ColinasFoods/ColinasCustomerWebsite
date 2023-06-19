@@ -1,5 +1,6 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Main.aspx.cs" Inherits="ColinasFoods.Main" %>
 
+<<<<<<< HEAD
 <asp:Content ID = "BodyContent" ContentPlaceHolderID="MainContent" runat ="server">
     
     <div id ="Maindiv">
