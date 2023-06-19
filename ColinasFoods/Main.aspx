@@ -3,11 +3,16 @@
 <asp:Content ID = "BodyContent" ContentPlaceHolderID="MainContent" runat ="server">
     
     <div id ="Maindiv">
-        <table style ="margin-left:auto; margin-right:auto; margin-top: -40px;">
+        <table style ="margin-left:10px; margin-right:auto; margin-top: -40px;">
             <tr>
                 <td align ="center">
                     <asp:Label align ="center" runat ="server" ID ="LblWelcome" CssClass="subtitle" Text ="About Us"/>
-                        <h2 style ="color: black;font-size:20px;"> We are a company that works with 100+ restaurants</h2>
+                        <h2 style ="color: black;font-size:19px; width:600px;">As a Texas-based company founded in 2015, we pride ourselves as a family-owned and operated
+                            business committed to our customers' success. We are dedicated to supplying high-quality protein, produce, groceries, dairy products 
+                            and dry goods for restaurants and other foodservice clients, as well as residential. We understand that the food industry demands 
+                            a reliable and consistent supply chain. By striving to become a partner to our customers, we aim to foster loyalty, satisfaction, 
+                            and mutual growth.  With our focus on customization, quality, and reliability, we are confident in our ability to meet the needs of
+                            our customers and help them achieve their goals.</h2>
                      <asp:Button ID="BtnAddNewSO" Width="200px" Text="New Sales Order" runat="server" CssClass="botonForm" OnClick="BtnAddNewSO_Click" />
                    
 
@@ -19,7 +24,7 @@
             </tr>
         </table>
     </div>
-    <div style ="margin-left:1200px; margin-bottom:400px; margin-top:-75px">
+    <div style ="margin-left:1200px; margin-bottom:400px; margin-top:-250px">
      <td height="20" ><a href="Balance.aspx">
          <asp:Label font-size= "20px" ForeColor="White" BackColor ="#b00505" BorderColor="black" BorderWidth="2px" ID="Label1" runat="server" Text="My Balance" /></a>
      </td>
