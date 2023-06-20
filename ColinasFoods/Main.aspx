@@ -63,7 +63,7 @@
             </tr>
         </table>
     </div>
-    <div style="margin-left: 1050px; margin-bottom: 400px; margin-top: -350px; text-align:center; position:relative;">
+    <div style="margin-left: 1050px; margin-bottom: 400px; margin-top: -950px; text-align:center; position:relative;">
         <h1 style="margin-right: 60px; text-align: center;">Explore Our Page</h1>
       <div style="align-content:center; margin-left:120px">
         <asp:Button  ID="Balance" Width="75px" Height="75px" Text="My Balance" Font-Size="Small" runat="server" CssClass="botonForm2" OnClick="BtnBalance_Click" />
