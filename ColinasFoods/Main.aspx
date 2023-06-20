@@ -55,44 +55,41 @@
                     </div>
                   
 
-                     
+
 
                 </td>
-               
+
 
             </tr>
         </table>
-         
     </div>
-    <!--<div style="margin-left:200px; margin-bottom:auto; margin-top:-200px;">
-                  <asp:Button ID="BtnAddNewSO" Width="200px" Text="New Sales Order" runat="server" CssClass="botonForm" OnClick="BtnAddNewSO_Click"/>
-              </div>
-    -->
-    <div style ="margin-left:1200px; margin-bottom:auto; margin-top:-850px">
-     
+    <div style="margin-left: 1050px; margin-bottom: 400px; margin-top: -350px; text-align:center; position:relative;">
+        <h1 style="margin-right: 60px; text-align: center;">Explore Our Page</h1>
+      <div style="align-content:center; margin-left:120px">
+        <asp:Button  ID="Balance" Width="75px" Height="75px" Text="My Balance" Font-Size="Small" runat="server" CssClass="botonForm2" OnClick="BtnBalance_Click" />
 
-         <asp:Label font-size= "20px" ForeColor="White" BackColor ="#b00505" BorderColor="black" BorderWidth="2px" ID="Label1" runat="server"/></a>
-         <asp:Button  Width="200px" Text="My Balance" runat="server" CssClass="botonForm" OnClick="BtnBalance_Click" />
-                   
-  
-        <div style =" margin-bottom:30px; margin-top:10px">
+
+          <div style="position:center;">
+
+
+        <asp:Button Width="75px" Height="75px" Text="My Invoices" Font-Size="small" runat="server" CssClass="botonForm2" OnClick="BtnInvoice_Click" style="margin-top:10px;" />
+
+
+
         
-         <asp:Label font-size= "20px" ForeColor="White" BackColor ="#b00505" BorderColor="black" BorderWidth="2px" ID="Label2" runat="server"/></a>
-             <asp:Button  Width="200px" Text="My Invoices" runat="server" CssClass="botonForm" OnClick="BtnInvoice_Click" />
-   
-       
-       
-        <div style =" margin-bottom:300px; margin-top:10px">
-           
-         <asp:Label font-size= "20px" ForeColor="White" BackColor ="#b00505" BorderColor="black" BorderWidth="2px" ID="Label4" runat="server" /></a>
-            <asp:Button  Width="200px" Text="My Order History" runat="server" CssClass="botonForm" OnClick="BtnOrderHistory_Click" />
-            
-        <div style=" margin-bottom:300px; margin-top:10px">
-             
-         <asp:Label font-size= "20px" ForeColor="White" BackColor ="#b00505" BorderColor="black" BorderWidth="2px" ID="Label5" runat="server" /></a>
-             <asp:Button  Width="200px" Text="My Payments" runat="server" CssClass="botonForm" OnClick="BtnPayment_Click" />
-     
-            </div>
+    </div>
+          </div>
+        <div style="margin-bottom: 500px; margin-top: -160px; margin-left:210px;">
+
+
+            <asp:Button Width="75px" Height="75px" Text="My Order History" Font-Size="small" runat="server" CssClass="botonForm2" OnClick="BtnOrderHistory_Click" />
+
+
+
+
+            <asp:Button Width="75px" Height="75px" Text="My Payments" Font-Size="small" runat="server" CssClass="botonForm2" OnClick="BtnPayment_Click" style="margin-top:10px;" />
+
+        </div>
 
         </div>
     </div>
