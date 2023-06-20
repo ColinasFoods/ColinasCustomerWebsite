@@ -7,7 +7,7 @@
             <h1 style="margin-top:-30px;">Welcome Back, <%= ColinasFoods.Essentials.UserName != null && ColinasFoods.Essentials.UserName.Length > 0 ? (Char.ToUpper(ColinasFoods.Essentials.UserName[0]) + ColinasFoods.Essentials.UserName.Substring(1)) : "" %></h1>
         </asp:Panel>
         <br />
-        <table style ="margin-left:10px; margin-right:auto; margin-top: -40px;" >
+        <table style ="margin-left:10px; margin-right:auto; margin-top: 0px;" >
             <tr>
                 <td align ="center">
                     <asp:Label align ="center" runat ="server" ID ="LblWelcome" CssClass="subtitle" Text ="About Us"/>
@@ -57,8 +57,8 @@
             </tr>
         </table>
     </div>
-    <div style="right:50rem;">
-        <h1 CssClass="subtitle" style="left: 45rem; text-align: center; position:relative; display:flex; bottom:30rem;">Explore Our Page</h1>
+    <div style="right:50rem; height:0rem; width:10rem;">
+        <h1 CssClass="subtitle" style="left: 47.5rem; text-align: center; position:relative; display:flex; bottom:30rem;">Explore Our Page</h1>
       <div style="position:relative; left:47rem; bottom:30rem">
           
         <asp:Button  ID="Balance" Width="75px" Height="75px" Text="My Balance" Font-Size="Small" runat="server" CssClass="botonForm2" OnClick="BtnBalance_Click"  />
