@@ -11,7 +11,6 @@ namespace ColinasFoods
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            ColinasFoods.Essentials.HomeSeen = true;
         }
     }
 }

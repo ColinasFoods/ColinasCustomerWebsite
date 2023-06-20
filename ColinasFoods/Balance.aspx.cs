@@ -39,7 +39,6 @@ namespace ColinasFoods
                     _total91Time = 0;
                     LoadBalance();
                 }
-                ColinasFoods.Essentials.HomeSeen = true;
             }
         }
 

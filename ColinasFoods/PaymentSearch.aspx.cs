@@ -30,7 +30,6 @@ namespace ColinasFoods
                     _TotalPayment = 0;
                     LoadPayments();
                 }
-                ColinasFoods.Essentials.HomeSeen = true;
             }
         }
 

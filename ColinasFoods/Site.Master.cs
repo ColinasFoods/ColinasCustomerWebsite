@@ -12,7 +12,6 @@ namespace ColinasFoods
     {
         private static String username;
         private static String password;
-        private static bool homeSeen;
         public static String UserName
         {
             set { username = value; }
@@ -23,12 +22,6 @@ namespace ColinasFoods
         {
             set { password = value; }
             get { return password; }
-        }
-        
-        public static bool HomeSeen
-        {
-            set { homeSeen = value; }
-            get { return homeSeen; }
         }
 }
     public partial class SiteMaster : MasterPage

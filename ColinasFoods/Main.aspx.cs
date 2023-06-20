@@ -19,7 +19,6 @@ namespace ColinasFoods
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            WelcomeTextVisible = false;
             if ((Session["LoginTime"] == null))
             {
                 Response.Redirect("Login.aspx", false);
@@ -29,7 +28,6 @@ namespace ColinasFoods
             {
                 ((SiteMaster)Master).NavBarVisible = false;
                 ((SiteMaster)Master).HeaderTitle = "Welcome to Colinas Foods";
-                welcomeTextVisible = !Essentials.HomeSeen;
                 WelcomeDiv.Visible = welcomeTextVisible;
                 Title = "Order History";
 
@@ -39,13 +37,7 @@ namespace ColinasFoods
 
                     LoadOrderHistory();
                 }
-                ColinasFoods.Essentials.HomeSeen = true;    
             }
-        }
-
-        public static string GetName()
-        {
-            return ColinasFoods.Essentials.UserName != null ? ColinasFoods.Essentials.UserName.ToCharArray()[0].ToString().ToUpper() + ColinasFoods.Essentials.UserName.Substring(1) : "Guest";
         }
 
         protected void Page_PreRender(object sender, EventArgs e)
