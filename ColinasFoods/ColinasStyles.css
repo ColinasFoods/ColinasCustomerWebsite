@@ -593,6 +593,11 @@ table tr td a:visited {
 	font-size:13px;
 	color: #24221E;
 	}
+
+.hidden {
+	visibility: hidden;
+	display:none;
+}
 	
 .Grid a {
 	font-family:Verdana, Geneva, sans-serif;
