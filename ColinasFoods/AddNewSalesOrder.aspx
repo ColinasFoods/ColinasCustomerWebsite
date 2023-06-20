@@ -11,9 +11,9 @@
     <table>
         <tr>
             <td align="center">
-                <asp:Button ID="BtnOrdered" Width="200px" Text="Ordered Items" runat="server" CssClass="botonForm2" OnClick="BtnOrdered_Click"/>
+                <asp:Button ID="BtnOrdered" Width="200px" Text="Ordered Items" runat="server" CssClass="botonForm" OnClick="BtnOrdered_Click"/>
                 &nbsp;&nbsp;&nbsp;
-                <asp:Button ID="BtnOther" Width="200px" Text="Other Items" runat="server" CssClass="botonForm2" OnClick="BtnOther_Click"  />
+                <asp:Button ID="BtnOther" Width="200px" Text="Other Items" runat="server" CssClass="botonForm" OnClick="BtnOther_Click"  />
             </td>
             <td>&nbsp;</td>
             <td align="center">
