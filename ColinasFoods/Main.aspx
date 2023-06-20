@@ -2,12 +2,12 @@
 
 <asp:Content ID = "BodyContent" ContentPlaceHolderID="MainContent" runat ="server">
     
-    <div id ="Maindiv">
+    <div id ="Maindiv" style="height:25rem; width:0rem;">
         <asp:Panel runat="server" ID="WelcomeDiv" CssClass="subtitle" Font-Size="20px" Width="500px" HorizontalAlign="Left">
-            <h1 style="margin-top:-30px;">Welcome Back, <%= ColinasFoods.Essentials.UserName != null && ColinasFoods.Essentials.UserName.Length > 0 ? (Char.ToUpper(ColinasFoods.Essentials.UserName[0]) + ColinasFoods.Essentials.UserName.Substring(1)) : "" %></h1>
+            <h1 style="position:relative; left:35rem;top:-5rem;">Welcome Back, <%= ColinasFoods.Essentials.UserName != null && ColinasFoods.Essentials.UserName.Length > 0 ? (Char.ToUpper(ColinasFoods.Essentials.UserName[0]) + ColinasFoods.Essentials.UserName.Substring(1)) : "" %></h1>
         </asp:Panel>
         <br />
-        <table style ="margin-left:10px; margin-right:auto; margin-top: 0px;" >
+        <table style ="width = 0rem;position:relative;right:-2rem; bottom:7rem; height:0rem" >
             <tr>
                 <td align ="center">
                     <asp:Label align ="center" runat ="server" ID ="LblWelcome" CssClass="subtitle" Text ="About Us"/>
@@ -58,8 +58,8 @@
         </table>
     </div>
     <div style="right:50rem; height:0rem; width:10rem;">
-        <h1 CssClass="subtitle" style="left: 47.5rem; text-align: center; position:relative; display:flex; bottom:30rem;">Explore Our Page</h1>
-      <div style="position:relative; left:47rem; bottom:30rem">
+        <h1 CssClass="subtitle" style="left: 47.5rem; text-align: center; position:relative; display:flex; bottom:25rem;">Explore Our Page</h1>
+      <div style="position:relative; left:47rem; bottom:25rem">
           
         <asp:Button  ID="Balance" Width="75px" Height="75px" Text="My Balance" Font-Size="Small" runat="server" CssClass="botonForm2" OnClick="BtnBalance_Click"  />
 
@@ -67,13 +67,13 @@
       
 
 
-        <asp:Button Width="75px" Height="75px" Text="My Invoices" Font-Size="small" runat="server" CssClass="botonForm2" OnClick="BtnInvoice_Click" style="margin-top:10px;" />
+        <asp:Button Width="75px" Height="75px" Text="My Invoices" Font-Size="small" runat="server" CssClass="botonForm2" OnClick="BtnInvoice_Click" style="position:relative; top:.5rem;" />
 
 
 
 
           </div>
-        <div style="position: relative; left:53rem; bottom: 40rem;">
+        <div style="position: relative; left:53rem; bottom: 34.35rem;">
 
 
             <asp:Button Width="75px" Height="75px" Text="My Order History" Font-Size="small" runat="server" CssClass="botonForm2" OnClick="BtnOrderHistory_Click" />
@@ -81,7 +81,7 @@
 
 
 
-            <asp:Button Width="75px" Height="75px" Text="My Payments" Font-Size="small" runat="server" CssClass="botonForm2" OnClick="BtnPayment_Click" style="margin-top:10px;" />
+            <asp:Button Width="75px" Height="75px" Text="My Payments" Font-Size="small" runat="server" CssClass="botonForm2" OnClick="BtnPayment_Click" style="position:relative; top:.5rem;" />
 
         </div>
 
