@@ -27,7 +27,7 @@
                             </tr>
                             <tr>
                                 <td width="100%" valign="top" align="center">
-                                    <asp:Panel ID="RecentPanel" runat="server" ScrollBars="Auto" style="width:auto;height:600px;overflow:auto;" >
+                                    <asp:Panel ID="RecentPanel" runat="server" ScrollBars="Auto">
 
                                     <asp:GridView ID="ItemsGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black" OnSelectedIndexChanged="ItemsGrid_SelectedIndexChanged"  ShowHeaderWhenEmpty="true" EmptyDataText="You have no previous Sales Orders" runat="server" AutoGenerateColumns="False"  CssClass="GridMain"  BackColor="White" BorderColor="#b00505" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" DataKeyNames="SalesOrderID" allowpaging=true PageSize=3>
                                         <PagerStyle CssClass="hidden" />
@@ -57,11 +57,11 @@
             </tr>
         </table>
     </div>
-    <div style="margin-left: 14rem; margin-bottom: 25rem; margin-top: -58rem; text-align:center;">
-        <h1 CssClass="subtitle" style="margin-right: 20rem; margin-left:31rem; text-align: center; position:relative; display:flex;">Explore Our Page</h1>
-      <div style="align-content:center; margin-left:33rem">
+    <div style="right:50rem;">
+        <h1 CssClass="subtitle" style="left: 45rem; text-align: center; position:relative; display:flex; bottom:30rem;">Explore Our Page</h1>
+      <div style="position:relative; left:47rem; bottom:30rem">
           
-        <asp:Button  ID="Balance" Width="75px" Height="75px" Text="My Balance" Font-Size="Small" runat="server" CssClass="botonForm2" OnClick="BtnBalance_Click" />
+        <asp:Button  ID="Balance" Width="75px" Height="75px" Text="My Balance" Font-Size="Small" runat="server" CssClass="botonForm2" OnClick="BtnBalance_Click"  />
 
 
       
@@ -73,7 +73,7 @@
 
 
           </div>
-        <div style="margin-bottom: 25rem; margin-top: -10rem; margin-left:39rem;">
+        <div style="position: relative; left:53rem; bottom: 40rem;">
 
 
             <asp:Button Width="75px" Height="75px" Text="My Order History" Font-Size="small" runat="server" CssClass="botonForm2" OnClick="BtnOrderHistory_Click" />
