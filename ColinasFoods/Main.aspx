@@ -46,20 +46,14 @@
                   
                                     </asp:GridView>
                        
-                                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ColinasERPEntities %>" SelectCommandType="StoredProcedure" SelectCommand="Sales_OrderHistory"  />
-                                    
+                                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ColinasERPEntities %>" SelectCommandType="StoredProcedure" SelectCommand="Sales_OrderHistory" />
+                                    <asp:Button ID="BtnAddNewSO" Width="200px" Text="New Sales Order" runat="server" CssClass="botonForm" OnClick="BtnAddNewSO_Click"/>
                                 </asp:Panel>
                                 </td>
                             </tr>
-                        </table>
+                        </table>        
                     </div>
-                  
-
-
-
                 </td>
-
-
             </tr>
         </table>
     </div>

@@ -37,8 +37,9 @@ namespace ColinasFoods
                 {
                     Session["Check_Page_Refresh"] = DateTime.Now.ToString();
 
-
+                    LoadOrderHistory();
                 }
+                ColinasFoods.Essentials.HomeSeen = true;    
             }
         }
 
