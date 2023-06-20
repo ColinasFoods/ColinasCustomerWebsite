@@ -7,7 +7,7 @@
             <h1 style="margin-top:-30px;">Welcome Back, <%= ColinasFoods.Essentials.UserName != null && ColinasFoods.Essentials.UserName.Length > 0 ? (Char.ToUpper(ColinasFoods.Essentials.UserName[0]) + ColinasFoods.Essentials.UserName.Substring(1)) : "" %></h1>
         </asp:Panel>
         <br />
-        <table style ="margin-left:10px; margin-right:auto; margin-top: -40px;">
+        <table style ="margin-left:10px; margin-right:auto; margin-top: -40px;" >
             <tr>
                 <td align ="center">
                     <asp:Label align ="center" runat ="server" ID ="LblWelcome" CssClass="subtitle" Text ="About Us"/>
@@ -63,23 +63,23 @@
             </tr>
         </table>
     </div>
-    <div style="margin-left: 1050px; margin-bottom: 400px; margin-top: -950px; text-align:center; position:relative;">
-        <h1 style="margin-right: 60px; text-align: center;">Explore Our Page</h1>
-      <div style="align-content:center; margin-left:120px">
+    <div style="margin-left: 14rem; margin-bottom: 25rem; margin-top: -58rem; text-align:center;">
+        <h1 CssClass="subtitle" style="margin-right: 20rem; margin-left:31rem; text-align: center; position:relative; display:flex;">Explore Our Page</h1>
+      <div style="align-content:center; margin-left:33rem">
+          
         <asp:Button  ID="Balance" Width="75px" Height="75px" Text="My Balance" Font-Size="Small" runat="server" CssClass="botonForm2" OnClick="BtnBalance_Click" />
 
 
-          <div style="position:center;">
+      
 
 
         <asp:Button Width="75px" Height="75px" Text="My Invoices" Font-Size="small" runat="server" CssClass="botonForm2" OnClick="BtnInvoice_Click" style="margin-top:10px;" />
 
 
 
-        
-    </div>
+
           </div>
-        <div style="margin-bottom: 500px; margin-top: -160px; margin-left:210px;">
+        <div style="margin-bottom: 25rem; margin-top: -10rem; margin-left:39rem;">
 
 
             <asp:Button Width="75px" Height="75px" Text="My Order History" Font-Size="small" runat="server" CssClass="botonForm2" OnClick="BtnOrderHistory_Click" />
@@ -92,7 +92,7 @@
         </div>
 
         </div>
-    </div>
+
             
-        </div>
+      
 </asp:Content>
