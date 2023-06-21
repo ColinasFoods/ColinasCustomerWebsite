@@ -12,6 +12,13 @@ namespace ColinasFoods
         protected void Page_Load(object sender, EventArgs e)
         {
 
+
+
+            ((SiteMaster)Master).logOutVisible = false;
+            ((SiteMaster)Master).HeaderTitle = "Profile Credentials";
+            Title = "Profile Credentials";
+
+
         }
     }
 }

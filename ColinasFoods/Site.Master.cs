@@ -23,7 +23,7 @@ namespace ColinasFoods
             set { password = value; }
             get { return password; }
         }
-}
+    }
     public partial class SiteMaster : MasterPage
     {
         public string HeaderTitle
@@ -47,6 +47,11 @@ namespace ColinasFoods
         {
             get { return logout_link.Visible; }
             set { logout_link.Visible = value; }
+        }
+        public bool ProfileVisible
+        {
+            get { return Profiles.Visible; }
+            set { Profiles.Visible = value; }
         }
 
         protected void logout_Click(object sender, EventArgs e)
@@ -81,13 +86,51 @@ namespace ColinasFoods
         {
             Response.Redirect("~/Login.aspx");
         }
-    }
-
-    public static class Cipher
-    {
-        public static String GetUniqueSessionID()
+        protected void BtnProfileCredentials_Click(object sender, EventArgs e)
         {
-            return Guid.NewGuid().ToString();
+            if ((Session["LoginTime"] == null))
+            {
+                Response.Redirect("Login.aspx", false);
+                Context.ApplicationInstance.CompleteRequest();
+            }
+            else
+            {
+                // Is Event Fired PostBack, NOT REFRESH
+                if (IsPostBack)
+                {
+                    Session["Check_Page_Refresh"] = DateTime.Now.ToString();
+                    Response.Redirect("ProfileCredentials.aspx", false);
+
+                }
+            }
         }
+        protected void BtnPDFDownload_click(object sender, EventArgs e)
+        {
+            if ((Session["LoginTime"] == null))
+            {
+                Response.Redirect("Login.aspx", false);
+                Context.ApplicationInstance.CompleteRequest();
+            }
+            else
+            {
+                // Is Event Fired PostBack, NOT REFRESH
+                if (IsPostBack)
+                {
+                    Session["Check_Page_Refresh"] = DateTime.Now.ToString();
+                    Response.Redirect("PDFDownloads.aspx", false);
+
+                }
+            }
+
+        }
+
+        public static class Cipher
+        {
+            public static String GetUniqueSessionID()
+            {
+                return Guid.NewGuid().ToString();
+            }
+        }
+
     }
 }
