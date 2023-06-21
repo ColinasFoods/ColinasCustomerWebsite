@@ -8,16 +8,17 @@ using System.Web.UI.WebControls;
 
 namespace ColinasFoods
 {
+
     public partial class Balance : System.Web.UI.Page
     {
-        private Decimal _totalBalance;
-        private Decimal _totalOnTime;
-        private Decimal _total30Time;
-        private Decimal _total60Time;
-        private Decimal _total90Time;
-        private Decimal _total91Time;
+        public Decimal _totalBalance;
+        public Decimal _totalOnTime;
+        public Decimal _total30Time;
+        public Decimal _total60Time;
+        public Decimal _total90Time;
+        public Decimal _total91Time;
 
-        protected void Page_Load(object sender, EventArgs e)
+        public void Page_Load(object sender, EventArgs e)
         {
             if ((Session["LoginTime"] == null))
             {
@@ -65,7 +66,7 @@ namespace ColinasFoods
             }
         }
 
-        private void LoadBalance()
+        public void LoadBalance()
         {
             if ((Session["CustomerID"] == null))
             {
@@ -79,7 +80,7 @@ namespace ColinasFoods
                     int customer_id = Convert.ToInt32(Session["CustomerID"]);
 
                     DateTime startDate;
-                    if (TxtStartDate.Text != "")
+                    if (TxtStartDate != null && TxtStartDate.Text != "" )
                     {
                         try { startDate = Convert.ToDateTime(TxtStartDate.Text); }
                         catch
@@ -95,7 +96,7 @@ namespace ColinasFoods
                     }
 
                     DateTime endDate;
-                    if (TxtEndDate.Text != "")
+                    if (TxtEndDate != null && TxtEndDate.Text != "")
                     {
                         try { endDate = Convert.ToDateTime(TxtEndDate.Text); }
                         catch
