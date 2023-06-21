@@ -86,7 +86,7 @@
         </div>
 
         </div>
-<div class="dropdown">
+<div class="dropdown" style="left:50rem; bottom:20rem;">
     <button> My Profile</button>
     <div class="dropdown-content">
         <asp:Button runat="server" Text="My Credentials" OnClick="BtnAddNewSO_Click" />
