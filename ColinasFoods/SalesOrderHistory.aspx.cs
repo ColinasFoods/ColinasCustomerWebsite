@@ -20,6 +20,7 @@ namespace ColinasFoods
             else
             {
                 ((SiteMaster)Master).SalesVisible = false;
+                ((SiteMaster)Master).logOutVisible = false;
                 ((SiteMaster)Master).HeaderTitle = "Sales";
                 Title = "Sales";
 
