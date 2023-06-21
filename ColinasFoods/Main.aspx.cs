@@ -27,6 +27,7 @@ namespace ColinasFoods
             else
             {
                 ((SiteMaster)Master).NavBarVisible = false;
+                ((SiteMaster)Master).logOutVisible = false;
                 ((SiteMaster)Master).HeaderTitle = "Welcome to Colinas Foods";
                 WelcomeDiv.Visible = welcomeTextVisible;
                 Title = "Order History";
@@ -44,10 +45,10 @@ namespace ColinasFoods
         {
             ViewState["Check_Page_Refresh"] = Session["Check_Page_Refresh"];
         }
-        
+
         protected void BtnAddNewSO_Click(object sender, EventArgs e)
         {
-            
+
             if ((Session["LoginTime"] == null))
             {
                 Response.Redirect("Login.aspx", false);
@@ -133,6 +134,40 @@ namespace ColinasFoods
                 }
             }
         }
+        protected void BtnProfileCredentials_Click(object sender, EventArgs e)
+        {
+            if ((Session["LoginTime"] == null))
+            {
+                Response.Redirect("Login.aspx", false);
+                Context.ApplicationInstance.CompleteRequest();
+            }
+            else
+            {
+                // Is Event Fired PostBack, NOT REFRESH
+                if (ViewState["Check_Page_Refresh"].ToString() == Session["Check_Page_Refresh"].ToString())
+                {
+                    Response.Redirect("ProfileCredentials.aspx", false);
+                    Context.ApplicationInstance.CompleteRequest();
+                }
+            }
+        }
+        protected void BtnPDFDownload_click(object sender, EventArgs e)
+        {
+            if ((Session["LoginTime"] == null))
+            {
+                Response.Redirect("Login.aspx", false);
+                Context.ApplicationInstance.CompleteRequest();
+            }
+            else
+            {
+                // Is Event Fired PostBack, NOT REFRESH
+                if (ViewState["Check_Page_Refresh"].ToString() == Session["Check_Page_Refresh"].ToString())
+                {
+                    Response.Redirect("PDFDownloads.aspx", false);
+                    Context.ApplicationInstance.CompleteRequest();
+                }
+            }
+        }
 
         private void LoadOrderHistory()
         {
@@ -159,8 +194,37 @@ namespace ColinasFoods
         {
 
         }
+        protected void Logout_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string logouttime = System.DateTime.Now.ToString();
+                if (Session["LoginTime"] != null)
+                {
+                    string logintime = Session["LoginTime"].ToString();
+                    TimeSpan timeDiff = DateTime.Parse(logouttime) - DateTime.Parse(logintime);
+                    string differenceinseconds = timeDiff.Seconds.ToString();
+                    string differenceinminutes = timeDiff.Minutes.ToString();
 
-        
+                }
 
+
+                Session.Contents.RemoveAll();
+
+                Response.Redirect("~/Login.aspx", true);
+
+            }
+
+            catch (Exception ex)
+            {
+                //ErrorSignal.FromCurrentContext().Raise(ex);
+                Page.ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('Error: Logging out');", true);
+            }
+
+
+
+
+
+        }
     }
 }

@@ -86,14 +86,7 @@
         </div>
 
         </div>
-<div class="dropdown" style="left:50rem; bottom:20rem;">
-    <button> My Profile</button>
-    <div class="dropdown-content">
-        <asp:Button runat="server" Text="My Credentials" OnClick="BtnAddNewSO_Click" />
-         <asp:Button runat="server" Text="Download My PDF's" OnClick="BtnAddNewSO_Click" />
-         <asp:Button runat="server" Text="Log Out" OnClick="BtnAddNewSO_Click" />
-    </div>
-</div>
+
             
       
 </asp:Content>

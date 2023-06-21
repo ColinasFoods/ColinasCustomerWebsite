@@ -27,6 +27,7 @@ namespace ColinasFoods
             else
             {
                 ((SiteMaster)Master).HeaderTitle = "New Sales Order";
+                ((SiteMaster)Master).logOutVisible = false;
                 Title = "Add New Sales Order";
 
                 if (!IsPostBack)

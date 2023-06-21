@@ -14,11 +14,13 @@ namespace ColinasFoods
             if ((Session["LoginTime"] == null))
             {
                 Response.Redirect("Login.aspx", false);
+                
                 Context.ApplicationInstance.CompleteRequest();
             }
             else
             {
                 ((SiteMaster)Master).HeaderTitle = "Sales Order History";
+                ((SiteMaster)Master).logOutVisible = false;
                 Title = "Order History";
 
                 if (!IsPostBack)

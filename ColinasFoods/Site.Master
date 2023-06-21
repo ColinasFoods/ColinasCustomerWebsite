@@ -64,6 +64,7 @@
                         </td>
                     </tr>
                 </table>
+
             </div>
             <table style ="margin-left:auto; margin-right:auto;">
                 <tr>
@@ -72,6 +73,14 @@
                         </td>
                     </tr>
             </table>
+              <div class="dropdown"  style="right:0; bottom: 2rem;position:absolute;" cellpadding="0" cellspacing="0">
+    <asp:Button class="dropbtn" runat="server" ID="Profiles" Text="My Profile"></asp:Button>
+    <div class="dropdown-content" style="right:0rem; top:2rem; text-align:right;">
+        <asp:Button runat="server" Text="My Credentials" OnClick="BtnProfileCredentials_Click" />
+         <asp:Button runat="server" Text="Download My PDF's" OnClick="BtnPDFDownload_click" />
+         <asp:Button runat="server" Text="Log Out" OnClick="logout_Click" />
+    </div>
+</div>
         </div>
         <!--div_top  div ends here -->
 
@@ -103,8 +112,9 @@
         <br />
         <br />
 
-        
+          
     </form>
+
 </body>
 
 </html>

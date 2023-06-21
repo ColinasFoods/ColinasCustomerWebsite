@@ -27,6 +27,7 @@ namespace ColinasFoods
             else
             {
                 ((SiteMaster)Master).HeaderTitle = "Balance";
+                ((SiteMaster)Master).logOutVisible = false;
                 Title = "Payments";
 
                 if (!IsPostBack)
