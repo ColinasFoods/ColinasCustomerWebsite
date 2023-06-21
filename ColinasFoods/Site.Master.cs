@@ -12,6 +12,7 @@ namespace ColinasFoods
     {
         private static String username;
         private static String password;
+        private static decimal currentBalance;
         public static String UserName
         {
             set { username = value; }
@@ -23,7 +24,13 @@ namespace ColinasFoods
             set { password = value; }
             get { return password; }
         }
-    }
+
+        public static decimal CurrentBalance
+        {
+            set { currentBalance = value; }
+            get { return currentBalance; }
+        }
+}
     public partial class SiteMaster : MasterPage
     {
         public string HeaderTitle
