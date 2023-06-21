@@ -97,12 +97,17 @@
     <Content Include="Images\btn_sales.png" />
     <Content Include="Images\chosenPhaseBox.png" />
     <Content Include="Images\colinas_Logo.jpg" />
+    <Content Include="Images\HOEMSSSSSSSSSS.jpg" />
     <Content Include="Images\loading.gif" />
     <Content Include="Images\logo-Colinasjpg.jpg" />
     <Content Include="Images\logoSapiG.png" />
     <Content Include="Images\logoSapiGB.png" />
+    <Content Include="Images\OrderToday.jpg" />
+    <Content Include="Images\OrderToday.png" />
     <Content Include="Images\Sapi-logo.jpg" />
     <Content Include="Images\shadowF.png" />
+    <Content Include="Images\WelcomeTo.jpg" />
+    <Content Include="Images\WelcomeTo.png" />
     <Content Include="InvoiceSearch.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Main.aspx" />

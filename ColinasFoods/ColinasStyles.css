@@ -595,8 +595,8 @@ table tr td a:visited {
 	}
 
 .hidden {
-	visibility: hidden;
-	display:none;
+	vis: hidden;
+	display: none;
 }
 	
 .Grid a {
