@@ -57,9 +57,9 @@
             </tr>
         </table>
     </div>
-    <div style="right:50rem; height:0rem; width:10rem;">
-        <h1 CssClass="subtitle" style="left: 47.5rem; text-align: center; position:relative; display:flex; bottom:25rem;">Explore Our Page</h1>
-      <div style="position:relative; left:47rem; bottom:25rem">
+    <div style="right:45rem; height:0rem; width:10rem;">
+        <h1 CssClass="subtitle" style="left: 41.5rem; text-align: center; position:relative; display:flex; bottom:27rem;">Explore Our Page</h1>
+      <div style="position:relative; left:41.5rem; bottom:27rem">
           
         <asp:Button  ID="Balance" Width="75px" Height="75px" Text="My Balance" Font-Size="Small" runat="server" CssClass="botonForm2" OnClick="BtnBalance_Click"  />
 
@@ -73,7 +73,7 @@
 
 
           </div>
-        <div style="position: relative; left:53rem; bottom: 34.35rem;">
+        <div style="position: relative; left:47.5rem; bottom: 36.35rem;">
 
 
             <asp:Button Width="75px" Height="75px" Text="My Order History" Font-Size="small" runat="server" CssClass="botonForm2" OnClick="BtnOrderHistory_Click" />
@@ -86,7 +86,14 @@
         </div>
 
         </div>
-
+<div class="dropdown">
+    <button> My Profile</button>
+    <div class="dropdown-content">
+        <asp:Button runat="server" Text="My Credentials" OnClick="BtnAddNewSO_Click" />
+         <asp:Button runat="server" Text="Download My PDF's" OnClick="BtnAddNewSO_Click" />
+         <asp:Button runat="server" Text="Log Out" OnClick="BtnAddNewSO_Click" />
+    </div>
+</div>
             
       
 </asp:Content>
