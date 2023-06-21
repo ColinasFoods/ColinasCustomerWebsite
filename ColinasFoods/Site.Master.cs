@@ -8,10 +8,22 @@ using System.Web.UI.WebControls;
 
 namespace ColinasFoods
 {
+    public enum Page
+    {
+        LOGIN,
+        MAIN,
+        BALANCE,
+        PAYMENTS,
+        INVOICES,
+        SALES_ORDER
+    }
+
     public static class Essentials
     {
         private static String username;
         private static String password;
+        private static decimal currentBalance;
+        private static Page currentPage;
         public static String UserName
         {
             set { username = value; }
@@ -22,6 +34,18 @@ namespace ColinasFoods
         {
             set { password = value; }
             get { return password; }
+        }
+
+        public static decimal CurrentBalance
+        {
+            set { currentBalance = value; }
+            get { return currentBalance; }
+        }
+        
+        public static Page CurrentPage
+        {
+            set { currentPage = value; }
+            get { return currentPage; }
         }
     }
     public partial class SiteMaster : MasterPage

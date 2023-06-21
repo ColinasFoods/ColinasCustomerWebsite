@@ -37,6 +37,8 @@ namespace ColinasFoods
                     Session["Check_Page_Refresh"] = DateTime.Now.ToString();
 
                     LoadOrderHistory();
+                    LoadBalance();
+                    GetMyBalance();
                 }
             }
         }
@@ -188,6 +190,45 @@ namespace ColinasFoods
                 //ErrorSignal.FromCurrentContext().Raise(ex);
                 ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('Cant Get Order History:" + message + "');", true);
             }
+        }
+
+        private void LoadBalance()
+        {
+            try
+            {
+                int customerID = Convert.ToInt32(Session["CustomerID"]);
+
+                SqlDataSource2.SelectParameters.Clear();
+                SqlDataSource2.SelectParameters.Add("CustomerID", customerID.ToString());
+                hiddenBalanceGrid.DataSourceID = "SqlDataSource2";
+
+                hiddenBalanceGrid.DataBind();
+            }
+            catch (Exception ex)
+            {
+                String message = ex.Message;
+                Trace.Write("Error", "**Error in LoadOrderHistory**", ex);
+                //ErrorSignal.FromCurrentContext().Raise(ex);
+                ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('Cant Get Order History:" + message + "');", true);
+            }
+        }
+        protected void GetMyBalance()
+        {
+            Decimal currentBalance = 0.0M;
+            foreach (GridViewRow row in hiddenBalanceGrid.Rows)
+            {
+                Decimal temp;
+                if (Decimal.TryParse(row.Cells[4].Text.Trim('$'), out temp))
+                {
+                    currentBalance += temp;
+                } else
+                {
+                    continue;
+                }
+            }
+
+            Essentials.CurrentBalance = currentBalance;
+            balanceLabel.Text = '$' + Decimal.Round(Essentials.CurrentBalance, 2).ToString();
         }
 
         protected void ItemsGrid_SelectedIndexChanged(object sender, EventArgs e)

@@ -20,6 +20,7 @@ namespace ColinasFoods
             else
             {
                 ((SiteMaster)Master).SalesVisible = false;
+                ((SiteMaster)Master).logOutVisible = false;
                 ((SiteMaster)Master).HeaderTitle = "Sales";
                 Title = "Sales";
 
@@ -28,6 +29,7 @@ namespace ColinasFoods
                     Session["Check_Page_Refresh"] = DateTime.Now.ToString();
 
                     LoadOrderHistory();
+                    Essentials.CurrentPage = ColinasFoods.Page.SALES_ORDER;
                 }
             }
         }

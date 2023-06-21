@@ -7,7 +7,7 @@
             <h1 style="position:relative; left:35rem;top:-5rem;">Welcome Back, <%= ColinasFoods.Essentials.UserName != null && ColinasFoods.Essentials.UserName.Length > 0 ? (Char.ToUpper(ColinasFoods.Essentials.UserName[0]) + ColinasFoods.Essentials.UserName.Substring(1)) : "" %></h1>
         </asp:Panel>
         <br />
-        <table style ="width = 0rem;position:relative;right:-2rem; bottom:7rem; height:0rem" >
+        <table style ="width:0rem;position:relative;right:-2rem; bottom:7rem; height:0rem" >
             <tr>
                 <td align ="center">
                     <asp:Label align ="center" runat ="server" ID ="LblWelcome" CssClass="subtitle" Text ="About Us"/>
@@ -51,11 +51,17 @@
                                 </asp:Panel>
                                 </td>
                             </tr>
-                        </table>        
+                        </table>
                     </div>
                 </td>
             </tr>
         </table>
+    </div>
+    <div id="MyBalanceDiv" style="position:relative; top:-20rem; right:-70rem">
+        <asp:GridView ID="hiddenBalanceGrid" runat="server" CssClass="hidden"></asp:GridView>
+        <h1>My Total Balance:</h1>
+        <asp:Label ID="balanceLabel" runat="server" CssClass="botonForm"></asp:Label>
+        <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ColinasERPEntities %>" SelectCommandType="StoredProcedure" SelectCommand="Ac_GetBalance" />
     </div>
     <div style="right:45rem; height:0rem; width:10rem;">
         <h1 CssClass="subtitle" style="left: 41.5rem; text-align: center; position:relative; display:flex; bottom:27rem;">Explore Our Page</h1>
@@ -64,10 +70,10 @@
         <asp:Button  ID="Balance" Width="75px" Height="75px" Text="My Balance" Font-Size="Small" runat="server" CssClass="botonForm2" OnClick="BtnBalance_Click"  />
 
 
-      
 
 
-        <asp:Button Width="75px" Height="75px" Text="My Invoices" Font-Size="small" runat="server" CssClass="botonForm2" OnClick="BtnInvoice_Click" style="position:relative; top:.5rem;" />
+
+            <asp:Button Width="75px" Height="75px" Text="My Invoices" Font-Size="small" runat="server" CssClass="botonForm2" OnClick="BtnInvoice_Click" Style="position: relative; top: .5rem;" />
 
 
 

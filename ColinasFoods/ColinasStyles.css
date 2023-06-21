@@ -176,14 +176,19 @@ table tr td a:visited {
 	
 }
 
+#MyBalanceDiv {
+	margin-top: -30px;
+	min-height: 40px;
+}
+
 .headerlabel {
-    font-family:'Barlow';
-    font-size: 50px;
-    font-weight:bold;
-    color:#b00505;
+	font-family: 'Barlow';
+	font-size: 50px;
+	font-weight: bold;
+	color: #b00505;
 	top: 20px;
-	text-align:center;
-	position:relative;
+	text-align: center;
+	position: relative;
 }
 
 .tablelabel {

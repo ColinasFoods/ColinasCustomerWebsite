@@ -180,6 +180,7 @@ namespace ColinasFoods
                         _total91Time -= Convert.ToDecimal(Amount91);
                     else
                         _total91Time += Convert.ToDecimal(Amount91);
+                    Essentials.CurrentBalance = _totalBalance;
                 }
                 catch { }
             }

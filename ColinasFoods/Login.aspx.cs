@@ -30,6 +30,7 @@ namespace ColinasFoods
             ((SiteMaster)Master).ProfileVisible = false;
             ((SiteMaster)Master).HeaderTitle = "Customer Login";
             Title = "Customer Login";
+            Essentials.CurrentPage = ColinasFoods.Page.LOGIN;
         }
 
         protected void btn_LogIn_Click(object sender, EventArgs e)
