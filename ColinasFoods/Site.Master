@@ -24,10 +24,12 @@
                 <tr>
                     <td height="20" align="left" valign="middle" width="300px"> &nbsp</td>
 
-                    
+                    <td height="20" align="left" valign="middle"><a href="Main.aspx">
+                        <asp:Label CssClass="navLabel" ID="LblMain" runat="server" Text="Home" /></a>
+                    </td>
                 
                     <td height="20" align="left" valign="middle"><a href="SalesOrderHistory.aspx">
-                        <asp:Label CssClass="navLabel" ID="LblSalesOrder" runat="server" Text="Sales Order" /></a>
+                        <asp:Label CssClass="navLabel" ID="LblSalesOrder" runat="server" Text="Sales" /></a>
                     </td>
 
                     <td height="20" align="left" valign="middle"><a href="InvoiceSearch.aspx">
@@ -40,10 +42,6 @@
 
                     <td height="20" align="left" valign="middle"><a href="Balance.aspx">
                         <asp:Label CssClass="navLabel" ID="LblBalance" runat="server" Text="Balance" /></a>
-                    </td>
-
-                    <td height="20" align="left" valign="middle"><a href="Main.aspx">
-                        <asp:Label CssClass="navLabel" ID="LblMain" runat="server" Text="Home" /></a>
                     </td>
 
                     <td height="20" align="left" valign="middle" width="200px"> &nbsp</td>

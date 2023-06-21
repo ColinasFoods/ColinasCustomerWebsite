@@ -19,9 +19,9 @@ namespace ColinasFoods
             }
             else
             {
-                ((SiteMaster)Master).HeaderTitle = "Sales Order History";
-                ((SiteMaster)Master).logOutVisible = false;
-                Title = "Order History";
+                ((SiteMaster)Master).SalesVisible = false;
+                ((SiteMaster)Master).HeaderTitle = "Sales";
+                Title = "Sales";
 
                 if (!IsPostBack)
                 {

@@ -54,6 +54,30 @@ namespace ColinasFoods
             set { Profiles.Visible = value; }
         }
 
+        public bool SalesVisible
+        {
+            get { return LblSalesOrder.Visible; }
+            set { LblSalesOrder.Visible = value; }
+        }
+
+        public bool InvoiceVisible
+        {
+            get { return LblInvoices.Visible; }
+            set { LblInvoices.Visible = value; }
+        }
+
+        public bool BalanceVisible
+        {
+            get { return LblBalance.Visible; }
+            set { LblBalance.Visible = value; }
+        }
+
+        public bool PaymentVisible
+        {
+            get { return LblPayments.Visible; }
+            set { LblPayments.Visible = value; }
+        }
+
         protected void logout_Click(object sender, EventArgs e)
         {
             try

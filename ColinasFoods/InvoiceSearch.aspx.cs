@@ -21,6 +21,7 @@ namespace ColinasFoods
             }
             else
             {
+                ((SiteMaster)Master).InvoiceVisible = false;
                 ((SiteMaster)Master).HeaderTitle = "Invoices";
                 ((SiteMaster)Master).logOutVisible = false;
                 Title = "Invoices";

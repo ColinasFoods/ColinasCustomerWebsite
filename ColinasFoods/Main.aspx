@@ -76,8 +76,7 @@
         <div style="position: relative; left:47.5rem; bottom: 36.35rem;">
 
 
-            <asp:Button Width="75px" Height="75px" Text="My Order History" Font-Size="small" runat="server" CssClass="botonForm2" OnClick="BtnOrderHistory_Click" />
-
+           <asp:Button Width="75px" Height="75px" Text="My Sales" Font-Size="small" runat="server" CssClass="botonForm2" OnClick="BtnOrderHistory_Click" /> 
 
 
 
@@ -86,7 +85,6 @@
         </div>
 
         </div>
-
-            
+       
       
 </asp:Content>
