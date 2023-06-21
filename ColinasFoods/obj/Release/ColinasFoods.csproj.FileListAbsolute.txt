@@ -46,4 +46,3 @@ C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\obj\Release\Coli
 C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\obj\Release\ColinasFoods.csproj.CopyComplete
 C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\obj\Release\ColinasFoods.dll
 C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\obj\Release\ColinasFoods.pdb
-C:\Users\maudi\Source\Repos\ColinasCustomerWebsite\ColinasFoods\obj\Release\ColinasFoods.csproj.AssemblyReference.cache

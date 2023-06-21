@@ -117,6 +117,8 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Properties\PublishProfiles\ColinasPublish.pubxml" />
+    <Content Include="PDFDownloads.aspx" />
+    <Content Include="ProfileCredentials.aspx" />
     <Content Include="SalesOrderHistory.aspx" />
     <None Include="Properties\PublishProfiles\FTPProfile.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
@@ -261,6 +263,20 @@
     </Compile>
     <Compile Include="PaymentSearch.aspx.designer.cs">
       <DependentUpon>PaymentSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PDFDownloads.aspx.cs">
+      <DependentUpon>PDFDownloads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PDFDownloads.aspx.designer.cs">
+      <DependentUpon>PDFDownloads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProfileCredentials.aspx.cs">
+      <DependentUpon>ProfileCredentials.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProfileCredentials.aspx.designer.cs">
+      <DependentUpon>ProfileCredentials.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SalesOrderHistory.aspx.cs">
