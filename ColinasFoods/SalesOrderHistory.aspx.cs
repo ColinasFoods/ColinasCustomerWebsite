@@ -28,6 +28,7 @@ namespace ColinasFoods
                     Session["Check_Page_Refresh"] = DateTime.Now.ToString();
 
                     LoadOrderHistory();
+                    Essentials.CurrentPage = ColinasFoods.Page.SALES_ORDER;
                 }
             }
         }

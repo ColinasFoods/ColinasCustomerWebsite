@@ -31,6 +31,7 @@ namespace ColinasFoods
                     Session["Check_Page_Refresh"] = DateTime.Now.ToString();
                     _totalInvoice = 0;
                     LoadInvoices();
+                    Essentials.CurrentPage = ColinasFoods.Page.INVOICES;
                 }
             }
         }
