@@ -56,8 +56,12 @@
                 </td>
             </tr>
         </table>
+        <div id="ImageDiv">
+            <img src="Images/WelcomeTo.png" alt="Welcome To" width="114" height="85" />
+        </div>
     </div>
-    <div id="MyBalanceDiv" style="position:relative; top:-20rem; right:-70rem">
+
+    <div id="MyBalanceDiv" style="position:relative;top:-20rem;left:60rem;width: 275px;">
         <asp:GridView ID="hiddenBalanceGrid" runat="server" CssClass="hidden"></asp:GridView>
         <h1>My Total Balance:</h1>
         <asp:Label ID="balanceLabel" runat="server" CssClass="botonForm"></asp:Label>
