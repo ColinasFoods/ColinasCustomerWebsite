@@ -56,9 +56,6 @@
                 </td>
             </tr>
         </table>
-        <div id="ImageDiv">
-            <img src="Images/WelcomeTo.png" alt="Welcome To" width="114" height="85" />
-        </div>
     </div>
 
     <div id="MyBalanceDiv" style="position:relative;top:-20rem;left:60rem;width: 275px;">

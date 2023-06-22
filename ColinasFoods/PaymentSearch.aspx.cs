@@ -102,14 +102,14 @@ namespace ColinasFoods
                         try { startDate = Convert.ToDateTime(TxtStartDate.Text); }
                         catch
                         {
-                            startDate = Convert.ToDateTime("01/01/1900");
+                            startDate = new DateTime(DateTime.Now.Year, DateTime.Now.Day - 30 < 1 ? DateTime.Now.Month - 1 : DateTime.Now.Month, DateTime.Now.Day - 30 < 1 ? DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month - 1) - DateTime.Now.Day : DateTime.Now.Day - 30);
                             TxtStartDate.Text = "";
                             ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('Please validate start date');", true);
                         }
                     }
                     else
                     {
-                        startDate = Convert.ToDateTime("01/01/1900");
+                        startDate = new DateTime(DateTime.Now.Year, DateTime.Now.Day - 30 < 1 ? DateTime.Now.Month - 1 : DateTime.Now.Month, DateTime.Now.Day - 30 < 1 ? DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month - 1) - DateTime.Now.Day : DateTime.Now.Day - 30);
                     }
 
                     DateTime endDate;
