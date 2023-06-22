@@ -97,15 +97,13 @@
 
           <!-- Full-width images with number and caption text -->
           <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
             <img src="Images/WelcomeTo.png" style="width:35%">
             <div class="text">Welcome To Colinas</div>
           </div>
 
           <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="Images/OrderToday.png" style="width:35%">
-            <div class="text">Order Today</div>
+            <img src="Images/OrderToday.png"  style="width:35%">
+            <div class="text2">Click Here To Order Today</div>
           </div>
 
          <!-- <div class="mySlides fade">
