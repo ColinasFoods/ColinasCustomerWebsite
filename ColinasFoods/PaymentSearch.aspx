@@ -6,6 +6,8 @@
             $('.datepicker-field').datepicker();
         });
     </script>
+
+
     <table id="OuterTable" width="100%">
         <tr>
             <td>
@@ -48,8 +50,8 @@
                             
                                         <Columns>
                                      
-                                            <asp:BoundField DataField="PaymentNo" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Payment #" ReadOnly="True" InsertVisible="False" />
-                                    
+                                            <asp:BoundField DataField="PaymentNo" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Payment #" ReadOnly="True" InsertVisible="False" />                              
+                                            
                                             <asp:BoundField DataField="PaymentDate" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Payment Date"  ReadOnly="true" InsertVisible="false" />
                                     
                                             <asp:BoundField DataField="PaymentTotal" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Total Payment"   ReadOnly="true" InsertVisible="false" />
