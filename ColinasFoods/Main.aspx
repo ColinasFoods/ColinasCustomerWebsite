@@ -1,13 +1,12 @@
 <%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Main.aspx.cs" Inherits="ColinasFoods.Main" %>
 
-<asp:Content ID = "BodyContent" ContentPlaceHolderID="MainContent" runat ="server">
+<asp:Content ID = "BodyContent" ContentPlaceHolderID="MainContent" runat ="server" style="margin:0px;width:0px">
     
-    <div id ="Maindiv" style="height:20rem; width:0rem;">
+    <div id ="Maindiv" style="height:0rem; width:0rem;">
         <asp:Panel runat="server" ID="WelcomeDiv" CssClass="subtitle" Font-Size="20px" Width="500px" HorizontalAlign="Left">
             <h1 style="position:relative; left:35rem;top:-5rem;">Welcome Back, <%= ColinasFoods.Essentials.UserName != null && ColinasFoods.Essentials.UserName.Length > 0 ? (Char.ToUpper(ColinasFoods.Essentials.UserName[0]) + ColinasFoods.Essentials.UserName.Substring(1)) : "" %></h1>
         </asp:Panel>
-        <br />
-        <table style ="width:0rem;position:relative;right:-2rem; bottom:7rem; height:0rem" >
+        <table style ="width:0rem;position:relative;right:-2rem; bottom:7rem;" >
             <tr>
                 <td align ="center">
                     <asp:Label align ="center" runat ="server" ID ="LblWelcome" CssClass="subtitle" Text ="About Us"/>
@@ -56,16 +55,16 @@
                 </td>
             </tr>
         </table>
-    </div>
-    <div id="MyBalanceDiv" style="position:relative; top:-2rem; right:-38rem">
+    <div id="MyBalanceDiv" style="position:relative; top:-18rem; right:-38rem; width:10rem">
         <asp:GridView ID="hiddenBalanceGrid" runat="server" CssClass="hidden"></asp:GridView>
         <h1>My Total Balance:</h1>
         <asp:Label ID="balanceLabel" runat="server" CssClass="botonForm"></asp:Label>
         <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ColinasERPEntities %>" SelectCommandType="StoredProcedure" SelectCommand="Ac_GetBalance" />
     </div>
+
     <div style="right:45rem; height:0rem; width:10rem;">
-        <h1 CssClass="subtitle" style="left: 41.5rem; text-align: center; position:relative; display:flex; bottom:27rem;">Explore Our Page</h1>
-      <div style="position:relative; left:41.5rem; bottom:27rem">
+        <h1 CssClass="subtitle" style="left: 41.5rem; text-align: center; position:relative; display:flex; bottom:44rem;">Explore Our Page</h1>
+      <div style="position:relative; left:41.5rem; bottom:45rem">
           
         <asp:Button  ID="Balance" Width="75px" Height="75px" Text="My Balance" Font-Size="Small" runat="server" CssClass="botonForm2" OnClick="BtnBalance_Click"  />
 
@@ -79,7 +78,7 @@
 
 
           </div>
-        <div style="position: relative; left:47.5rem; bottom: 36.35rem;">
+        <div style="position: relative; left:47.5rem; bottom: 54.5rem;">
 
 
            <asp:Button Width="75px" Height="75px" Text="My Sales" Font-Size="small" runat="server" CssClass="botonForm2" OnClick="BtnOrderHistory_Click" /> 
@@ -93,17 +92,17 @@
         </div>
 
                 <!-- Slideshow container -->
-        <div class="slideshow-container">
+        <div class="slideshow-container" style="width:20rem">
 
           <!-- Full-width images with number and caption text -->
           <div class="mySlides fade">
-            <img src="Images/WelcomeTo.png" style="width:35%">
-            <div class="text">Welcome To Colinas</div>
+            <img src="Images/WelcomeTo.png" style="width:160%">
+            <div class="text" style="width:200px">Welcome To Colinas</div>
           </div>
 
           <div class="mySlides fade">
-            <img src="Images/OrderToday.png"  style="width:35%">
-            <div class="text2">Order Today!</div>
+            <img src="Images/OrderToday.png"  style="width:150%">
+            <div class="text2" style="width:200px">Order Today!</div>
           </div>
 
          <!-- <div class="mySlides fade">
@@ -116,13 +115,11 @@
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
           <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-        <br>
 
         <!-- The dots/circles -->
-        <div style="text-align:center">
+        <div style="position:relative;top:-40rem;right:-70rem;text-align:center;width: 40px;">
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
         </div>
         
         <script>
@@ -155,6 +152,7 @@
                 dots[slideIndex].className += " active";
             }
         </script>
+    </div>
        
       
 </asp:Content>

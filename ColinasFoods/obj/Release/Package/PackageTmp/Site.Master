@@ -1,0 +1,118 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ColinasFoods.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link href="ColinasStyles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">    
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</head>
+
+<body>
+    <form runat="server">
+
+        <!-- Navigation bar -->
+        <div id="titlediv">
+            <table ID="NavBar" runat="server" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td height="20" align="left" valign="middle" width="300px"> &nbsp</td>
+
+                    <td height="20" align="left" valign="middle"><a href="Main.aspx">
+                        <asp:Label CssClass="navLabel" ID="LblMain" runat="server" Text="Home" /></a>
+                    </td>
+                
+                    <td height="20" align="left" valign="middle"><a href="SalesOrderHistory.aspx">
+                        <asp:Label CssClass="navLabel" ID="LblSalesOrder" runat="server" Text="Sales" /></a>
+                    </td>
+
+                    <td height="20" align="left" valign="middle"><a href="InvoiceSearch.aspx">
+                        <asp:Label CssClass="navLabel" ID="LblInvoices" runat="server" Text="Invoices" /></a>
+                    </td>
+
+                    <td height="20" align="left" valign="middle"><a href="PaymentSearch.aspx">
+                        <asp:Label CssClass="navLabel" ID="LblPayments" runat="server" Text="Payments" /></a>
+                    </td>
+
+                    <td height="20" align="left" valign="middle"><a href="Balance.aspx">
+                        <asp:Label CssClass="navLabel" ID="LblBalance" runat="server" Text="Balance" /></a>
+                    </td>
+
+                    <td height="20" align="left" valign="middle" width="200px"> &nbsp</td>
+                </tr>
+            </table>
+        </div><!-- NavBar div ends here -->
+
+        <div id="div_top">
+            <div id="logoR">
+                <img src="Images/logo-Colinasjpg.jpg" alt="Colinas Logo" width="114" height="85" border="0" />
+            </div>
+
+            <div id="logout_div">
+                <table width="60" border="0" align="right" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="80" align="center" valign="middle">
+                            <asp:Button ID="logout_link" runat="server" CausesValidation="false" ToolTip="LogOut" CssClass="btn_logout" OnClick="logout_Click" Text="" />
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+            <table style ="margin-left:auto; margin-right:auto;">
+                <tr>
+                    <td align ="center">
+                            <asp:Label align ="center" CssClass="headerlabel" ID="LblHeaderTitle" runat="server" ></asp:Label>
+                        </td>
+                    </tr>
+            </table>
+              <div class="dropdown"  style="right:0; bottom: 2rem;position:absolute;" cellpadding="0" cellspacing="0">
+    <asp:Button class="dropbtn" runat="server" ID="Profiles" Text="My Profile"></asp:Button>
+    <div class="dropdown-content" style="right:0rem; top:2rem; text-align:right;">
+        <asp:Button runat="server" Text="My Credentials" OnClick="BtnProfileCredentials_Click" />
+         <asp:Button runat="server" Text="Download My PDF's" OnClick="BtnPDFDownload_click" />
+         <asp:Button runat="server" Text="Log Out" OnClick="logout_Click" />
+    </div>
+</div>
+        </div>
+        <!--div_top  div ends here -->
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+            <div id="head_page">
+                <table id="PageTitle" align="center">
+                    <tr>
+                        <td>
+                            &nbsp;</td>
+                    </tr>
+                </table>
+            </div>
+          
+        <br />
+
+        <!-- Where the page's content get's rendered -->
+        <div class="div_bodyContent">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+
+          
+    </form>
+
+</body>
+
+</html>

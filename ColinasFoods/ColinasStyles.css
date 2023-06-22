@@ -733,7 +733,7 @@ table tr td a:visited {
 	max-width: 100rem;
 	position: relative;
 	left:55rem;
-	bottom:25rem;
+	bottom:40rem;
 
 }
 
@@ -746,7 +746,7 @@ table tr td a:visited {
 .prev, .next {
 	cursor: pointer;
 	position: relative;
-	top: 50%;
+	top: -45%;
 	width:1000rem;
 	bottom:10rem;
 	padding: 16px;
@@ -760,7 +760,7 @@ table tr td a:visited {
 
 /* Position the "next button" to the right */
 .next {
-	left: 28rem;
+	left: 26.5rem;
 	border-radius: 3px 0 0 3px;
 }
 
