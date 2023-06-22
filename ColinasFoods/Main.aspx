@@ -2,7 +2,7 @@
 
 <asp:Content ID = "BodyContent" ContentPlaceHolderID="MainContent" runat ="server">
     
-    <div id ="Maindiv" style="height:20rem; width:0rem;">
+    <div id ="Maindiv" style="height:25rem; width:0rem;">
         <asp:Panel runat="server" ID="WelcomeDiv" CssClass="subtitle" Font-Size="20px" Width="500px" HorizontalAlign="Left">
             <h1 style="position:relative; left:35rem;top:-5rem;">Welcome Back, <%= ColinasFoods.Essentials.UserName != null && ColinasFoods.Essentials.UserName.Length > 0 ? (Char.ToUpper(ColinasFoods.Essentials.UserName[0]) + ColinasFoods.Essentials.UserName.Substring(1)) : "" %></h1>
         </asp:Panel>
