@@ -6,6 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>
     </ProductVersion>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{AD0C3DCD-F623-4E13-9B60-2B77F2661B9A}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
