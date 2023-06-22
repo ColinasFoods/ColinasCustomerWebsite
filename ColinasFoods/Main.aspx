@@ -57,7 +57,7 @@
             </tr>
         </table>
     </div>
-    <div id="MyBalanceDiv" style="position:relative; top:-20rem; right:-70rem">
+    <div id="MyBalanceDiv" style="position:relative; top:-2rem; right:-38rem">
         <asp:GridView ID="hiddenBalanceGrid" runat="server" CssClass="hidden"></asp:GridView>
         <h1>My Total Balance:</h1>
         <asp:Label ID="balanceLabel" runat="server" CssClass="botonForm"></asp:Label>
@@ -103,7 +103,7 @@
 
           <div class="mySlides fade">
             <img src="Images/OrderToday.png"  style="width:35%">
-            <div class="text2">Click Here To Order Today</div>
+            <div class="text2">Order Today!</div>
           </div>
 
          <!-- <div class="mySlides fade">
