@@ -21,8 +21,8 @@ using System.Windows.Forms;
 
           
             ((SiteMaster)Master).logOutVisible = false;
-            ((SiteMaster)Master).HeaderTitle = "PDF Download";
-            Title = "PDF Download";
+            ((SiteMaster)Master).HeaderTitle = "Credit App Form";
+            Title = "Credit App Form";
 
 
         }

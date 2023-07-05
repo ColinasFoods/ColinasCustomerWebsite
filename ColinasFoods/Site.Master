@@ -72,13 +72,20 @@
                     </tr>
             </table>
               <div class="dropdown"  style="right:0; bottom: 2rem;position:absolute;" cellpadding="0" cellspacing="0">
-            <asp:Button class="dropbtn" runat="server" ID="Profiles" Text="My Profile" style ="font-family:'Barlow'; font-size:1.75rem; font-weight: bold;"></asp:Button>
+                  
+            <asp:Button class="dropbtn" runat="server" ID="Profiles" Text="My Profile" style ="font-family:'Barlow'; float:right; font-size:1.75rem; color:dimgrey; background-color: white; font-weight: bold;"></asp:Button>
+                  <asp:Image ID="PFP"  src="Images/btn_profile.png" runat="server" style="width:18%; float:right;"/>
+                  
     <div class="dropdown-content" style="right:0rem; top:2.145rem; text-align:right; background-color: transparent;">
-        <asp:Button runat="server" style="font-size:1rem;  color: white; border-color:white; background-color:#b00505; font-weight: lighter; font-family:'Barlow'; padding: .4rem .6rem;" Text="My Credentials" OnClick="BtnProfileCredentials_Click" />
-         <asp:Button runat="server" style="font-size:1rem;  color: white;  border-color:white;background-color:#b00505;  font-weight: lighter; font-family:'Barlow'; padding: .4rem .6rem;" Text="Download My PDF's" OnClick="BtnPDFDownload_click" />
-         <asp:Button runat="server" style="font-size:1rem; color: white; border-color:white;background-color:#b00505;  font-weight: lighter; font-family:'Barlow'; padding: .4rem .6rem;" Text="Log Out" OnClick="logout_Click" />
+       
+        <asp:Button runat="server" style="font-size:1rem;  color: dimgrey; border-color:grey; background-color:white; font-weight: lighter; font-family:'Barlow'; padding: .4rem .6rem;" Text="My Credentials" OnClick="BtnProfileCredentials_Click" />
+         <asp:Button runat="server" style="font-size:1rem;  color: dimgrey;  border-color:grey;background-color:white;  font-weight: lighter; font-family:'Barlow'; padding: .4rem .6rem;" Text="Credit App Form" OnClick="BtnPDFDownload_click" />
+        <asp:Button runat="server" style="font-size:1rem;  color: dimgrey;  border-color:grey;background-color:white;  font-weight: lighter; font-family:'Barlow'; padding: .4rem .6rem;" Text="Return Policy"  target="_blank" OnClick="BtnReturn_click" />
+         <asp:Button runat="server" style="font-size:1rem; color: dimgrey; border-color:grey;background-color:white;  font-weight: lighter; font-family:'Barlow'; padding: .4rem .6rem;" Text="Log Out"  OnClick="logout_Click" />
+
     </div>
 </div>
+            
         </div>
         <!--div_top  div ends here -->
 

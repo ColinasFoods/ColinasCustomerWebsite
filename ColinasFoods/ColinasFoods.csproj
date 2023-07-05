@@ -95,6 +95,7 @@
     <Content Include="Images\btn_logout.png" />
     <Content Include="Images\btn_logout_hover.png" />
     <Content Include="Images\btn_products.png" />
+    <Content Include="Images\btn_profile.png" />
     <Content Include="Images\btn_sales.png" />
     <Content Include="Images\chosenPhaseBox.png" />
     <Content Include="Images\colinas_Logo.jpg" />
@@ -105,6 +106,7 @@
     <Content Include="Images\logoSapiGB.png" />
     <Content Include="Images\OrderToday.jpg" />
     <Content Include="Images\OrderToday.png" />
+    <Content Include="Images\Return.jpg" />
     <Content Include="Images\Sapi-logo.jpg" />
     <Content Include="Images\shadowF.png" />
     <Content Include="Images\WelcomeTo.jpg" />
@@ -122,8 +124,11 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="PDF\CreditAPP.pdf" />
+    <Content Include="Images\Return.pdf" />
     <None Include="Properties\PublishProfiles\ColinasPublish.pubxml" />
     <Content Include="PDFDownloads.aspx" />
+    <Content Include="PDF\CreditAPP.png" />
     <Content Include="ProfileCredentials.aspx" />
     <Content Include="SalesOrderHistory.aspx" />
     <None Include="Properties\PublishProfiles\FTPProfile.pubxml" />

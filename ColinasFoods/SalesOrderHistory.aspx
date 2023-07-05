@@ -24,22 +24,22 @@
                                     
                                 <asp:Button ID="BtnAddNewSO" Width="200px" Text="New Sales Order" runat="server" CssClass="botonForm" OnClick="BtnAddNewSO_Click" />
                            
-                                    <asp:GridView ID="ItemsGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black" OnSelectedIndexChanged="ItemsGrid_SelectedIndexChanged"  ShowHeaderWhenEmpty="true" EmptyDataText="You have no previous Sales Orders" runat="server" AutoGenerateColumns="False"  CssClass="Grid"  BackColor="White" BorderColor="#b00505" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" DataKeyNames="SalesOrderID">
+                                    <asp:GridView ID="ItemsGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black" OnSelectedIndexChanged="ItemsGrid_SelectedIndexChanged"  ShowHeaderWhenEmpty="true" EmptyDataText="You have no previous Sales Orders" runat="server" AutoGenerateColumns="False"  CssClass="Grid"  BackColor="White" BorderColor="#d52a3d" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" DataKeyNames="SalesOrderID">
                             
                                         <Columns>
                                      
-                                            <asp:BoundField DataField="SalesOrderNo" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Order Number" SortExpression="SalesOrderNo" ReadOnly="True" InsertVisible="False" />
+                                            <asp:BoundField DataField="SalesOrderNo" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="Order Number" SortExpression="SalesOrderNo" ReadOnly="True" InsertVisible="False" />
                                     
-                                            <asp:BoundField DataField="ReleaseDate" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Date Submitted"  SortExpression="ReleaseDate" ReadOnly="true" InsertVisible="false" />
+                                            <asp:BoundField DataField="ReleaseDate" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="Date Submitted"  SortExpression="ReleaseDate" ReadOnly="true" InsertVisible="false" />
                                      
-                                            <asp:BoundField DataField="RequiredDate" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Required Date"  SortExpression="RequiredDate" ReadOnly="true" InsertVisible="false" />
+                                            <asp:BoundField DataField="RequiredDate" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="Required Date"  SortExpression="RequiredDate" ReadOnly="true" InsertVisible="false" />
                                            
-                                            <asp:BoundField DataField="Total" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Total $"  SortExpression="Total" ReadOnly="true" InsertVisible="false" />
+                                            <asp:BoundField DataField="Total" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="Total $"  SortExpression="Total" ReadOnly="true" InsertVisible="false" />
 
                                             
                                 
                                             <asp:TemplateField>
-                                                <HeaderStyle BackColor="#b00505" />
+                                                <HeaderStyle BackColor="#d52a3d" />
                                                 <HeaderTemplate>
                                                     <asp:Label runat="server" Text="Details" ssClass="Grid th" />
                                                 </HeaderTemplate>
@@ -70,21 +70,21 @@
                                     <tr>
                                         <td>
                                             <asp:Panel ID="SalesDetailsPanel" runat="server" align="Top" ScrollBars="Auto">
-                                                <asp:GridView ID="DetailsGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black"  runat="server" AutoGenerateColumns="False"  CssClass="Grid"  BackColor="White" BorderColor="#b00505" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource2" DataKeyNames="SalesOrderDetailID">
+                                                <asp:GridView ID="DetailsGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black"  runat="server" AutoGenerateColumns="False"  CssClass="Grid"  BackColor="White" BorderColor="#d52a3d" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource2" DataKeyNames="SalesOrderDetailID">
                             
                                                     <Columns>
                                      
-                                                        <asp:BoundField DataField="ItemNo" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Item #" SortExpression="ItemNo" ReadOnly="True" InsertVisible="False" />
+                                                        <asp:BoundField DataField="ItemNo" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="Item #" SortExpression="ItemNo" ReadOnly="True" InsertVisible="False" />
                                      
-                                                        <asp:BoundField DataField="Quantity" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Qty." SortExpression="Quantity" ReadOnly="True" InsertVisible="False" />
+                                                        <asp:BoundField DataField="Quantity" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="Qty." SortExpression="Quantity" ReadOnly="True" InsertVisible="False" />
                                     
-                                                        <asp:BoundField DataField="UofM" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="UM"  SortExpression="UofM" ReadOnly="true" InsertVisible="false" />
+                                                        <asp:BoundField DataField="UofM" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="UM"  SortExpression="UofM" ReadOnly="true" InsertVisible="false" />
                                     
-                                                        <asp:BoundField DataField="Description" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Description"  SortExpression="ShipDate" ReadOnly="true" InsertVisible="false" />
+                                                        <asp:BoundField DataField="Description" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="Description"  SortExpression="ShipDate" ReadOnly="true" InsertVisible="false" />
                                     
-                                                        <asp:BoundField DataField="UnitPrice" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Unit Price"  SortExpression="UnitPrice" ReadOnly="true" InsertVisible="false" />
+                                                        <asp:BoundField DataField="UnitPrice" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="Unit Price"  SortExpression="UnitPrice" ReadOnly="true" InsertVisible="false" />
                                     
-                                                        <asp:BoundField DataField="Amount" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Amount"  SortExpression="Amount" ReadOnly="true" InsertVisible="false" />
+                                                        <asp:BoundField DataField="Amount" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="Amount"  SortExpression="Amount" ReadOnly="true" InsertVisible="false" />
 
                                                     </Columns>
 
