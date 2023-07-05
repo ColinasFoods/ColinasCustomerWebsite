@@ -190,7 +190,7 @@ namespace ColinasFoods
                 {
                     Session["Check_Page_Refresh"] = DateTime.Now.ToString();
                     Page.ClientScript.RegisterStartupScript(
-    this.GetType(), "OpenWindow", "window.open('/images/return.jpg','_newtab');", true);
+    this.GetType(), "OpenWindow", "window.open('/images/return.jpg','_blank');", true);
 
                 }
             }
