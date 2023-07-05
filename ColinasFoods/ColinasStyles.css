@@ -17,14 +17,14 @@ table tr td a {
     display:block;
     height:100%;
     width:100%;
-    color:#b00505;
+    color:#d52a3d;
 }
 
 table tr td a:visited {
     display:block;
     height:100%;
     width:100%;
-    color:#b00505;
+    color:#d52a3d;
 }
 
 .navLabel:hover{
@@ -110,7 +110,7 @@ table tr td a:visited {
 	height: 30px;
 	z-index: 1;
 	border: none;
-	background-color:#b00505;
+	background-color:#d52a3d;
 	
 	background-position: top center;
 	background-repeat:no-repeat;
@@ -169,7 +169,7 @@ table tr td a:visited {
 	font-size: 45px;
 	font-weight: bold;
 	width: 45px;
-	color: #b00505;
+	color: #d52a3d;
 	text-align:center;
 	position:center;
 
@@ -185,7 +185,7 @@ table tr td a:visited {
 	font-family: 'Barlow';
 	font-size: 50px;
 	font-weight: bold;
-	color: #b00505;
+	color: #d52a3d;
 	top: 20px;
 	text-align: center;
 	position: relative;
@@ -195,7 +195,7 @@ table tr td a:visited {
     font-family:Verdana;
     font-size: 24px;
     font-weight:bold;
-    color:#b00505;
+    color:#d52a3d;
 }
 
 #div_bodycontent {
@@ -318,7 +318,7 @@ table tr td a:visited {
     width:100%;
     font-weight:bold;
     color:#000000;
-    background-color:#b00505;
+    background-color:#d52a3d;
 }
 .PhaseManagement {
     position: relative;
@@ -349,7 +349,7 @@ table tr td a:visited {
     width:100%;
     font-weight:bold;
     color:#000000;
-    background-color:#b00505;
+    background-color:#d52a3d;
 }
 
 
@@ -501,7 +501,7 @@ table tr td a:visited {
    color: #fff;
    border: none;
    width:175px;
-   background-color: #b00505;
+   background-color: #d52a3d;
    border: 1px solid #f1f1f1;
    border-radius: 10px;
    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
@@ -513,7 +513,7 @@ table tr td a:visited {
 	color: #fff;
 	border: none;
 	width: 105px;
-	background-color: #b00505;
+	background-color: #d52a3d;
 	border: 1px solid #f1f1f1;
 	border-radius: 10px;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
@@ -536,7 +536,7 @@ table tr td a:visited {
 	color: #fff;
 	border: none;
 	width: 1px;
-	background-color: #b00505;
+	background-color: #d52a3d;
 	border: 1px solid #f1f1f1;
 	border-radius: 10px;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
@@ -545,13 +545,19 @@ table tr td a:visited {
 	justify-content: center;
 	white-space: normal;
 	position:center;
+	cursor:pointer;
 	
 }
-
-.add_new_interaction {
-    height:50px;
-    width:50px;
+.botonForm2:hover {
+	background-color: rgb(73, 74, 84);
+	cursor: pointer;
+	color: #fff;
 }
+
+	.add_new_interaction {
+		height: 50px;
+		width: 50px;
+	}
 
 
 
@@ -572,7 +578,7 @@ table tr td a:visited {
    
     float: left;
      display: block;
-   background-color:#b00505;
+   background-color:#d52a3d;
     font-weight: bold;
   
   }
@@ -629,7 +635,7 @@ table tr td a:visited {
 
       color: #FFF;
 
-      background: #B00505;
+      background: #d52a3d;
 
       border-left: solid 1px #c1c1c1;
 
@@ -666,7 +672,7 @@ table tr td a:visited {
                     
 /* Style The Dropdown Button */
 .dropbtn {
-    background-color: #b00505;
+    background-color: #d52a3d;
     color: white;
     padding: .05rem;
 	font-family:Verdana, Geneva, sans-serif;
@@ -714,7 +720,7 @@ table tr td a:visited {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #b00505;
+    background-color: #d52a3d;
 }
 
 .datepicker-field {

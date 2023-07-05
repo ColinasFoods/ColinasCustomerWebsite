@@ -28,17 +28,17 @@
                                 <td width="100%" valign="top" align="center">
                                     <asp:Panel ID="RecentPanel" runat="server" ScrollBars="Auto">
 
-                                        <asp:GridView ID="ItemsGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black" OnSelectedIndexChanged="ItemsGrid_SelectedIndexChanged" ShowHeaderWhenEmpty="true" EmptyDataText="You have no previous Sales Orders" runat="server" AutoGenerateColumns="False" CssClass="GridMain" BackColor="White" BorderColor="#b00505" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" DataKeyNames="SalesOrderID" AllowPaging="true" PageSize="3">
+                                        <asp:GridView ID="ItemsGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black" OnSelectedIndexChanged="ItemsGrid_SelectedIndexChanged" ShowHeaderWhenEmpty="true" EmptyDataText="You have no previous Sales Orders" runat="server" AutoGenerateColumns="False" CssClass="GridMain" BackColor="White" BorderColor="#d52a3d" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" DataKeyNames="SalesOrderID" AllowPaging="true" PageSize="3">
                                             <PagerStyle CssClass="hidden" />
                                             <Columns>
 
-                                                <asp:BoundField DataField="SalesOrderNo" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Order Number" SortExpression="SalesOrderNo" ReadOnly="True" InsertVisible="False" />
+                                                <asp:BoundField DataField="SalesOrderNo" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="Order Number" SortExpression="SalesOrderNo" ReadOnly="True" InsertVisible="False" />
 
-                                                <asp:BoundField DataField="ReleaseDate" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Date Submitted" SortExpression="ReleaseDate" ReadOnly="true" InsertVisible="false" />
+                                                <asp:BoundField DataField="ReleaseDate" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="Date Submitted" SortExpression="ReleaseDate" ReadOnly="true" InsertVisible="false" />
 
-                                                <asp:BoundField DataField="RequiredDate" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Required Date" SortExpression="RequiredDate" ReadOnly="true" InsertVisible="false" />
+                                                <asp:BoundField DataField="RequiredDate" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="Required Date" SortExpression="RequiredDate" ReadOnly="true" InsertVisible="false" />
 
-                                                <asp:BoundField DataField="Total" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Total $" SortExpression="Total" ReadOnly="true" InsertVisible="false" />
+                                                <asp:BoundField DataField="Total" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="Total $" SortExpression="Total" ReadOnly="true" InsertVisible="false" />
 
 
                                             </Columns>

@@ -26,19 +26,19 @@
             <td>
                 <asp:Panel runat="server" style="width:100%;height:25rem;overflow:auto;">
                         <asp:TextBox runat="server" ID="TxtFilter" Width="100%" AutoPostBack="true" CssClass="form_Form" OnTextChanged="TxtFilter_TextChanged" placeholder="Search" />
-                        <asp:GridView ID="ItemsGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black" OnSelectedIndexChanged="ItemsGrid_SelectedIndexChanged"  ShowHeaderWhenEmpty="true" EmptyDataText="No previously ordered items were found" runat="server" AutoGenerateColumns="False"  CssClass="Grid"  BackColor="White" BorderColor="#b00505" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" DataKeyNames="MaterialID">
+                        <asp:GridView ID="ItemsGrid" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black" OnSelectedIndexChanged="ItemsGrid_SelectedIndexChanged"  ShowHeaderWhenEmpty="true" EmptyDataText="No previously ordered items were found" runat="server" AutoGenerateColumns="False"  CssClass="Grid"  BackColor="White" BorderColor="#d52a3d" BorderStyle="None" BorderWidth="1px" CellPadding="4" DataSourceID="SqlDataSource1" DataKeyNames="MaterialID">
                             
                             <Columns>
                                      
-                                <asp:BoundField DataField="PartNo" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Part #" SortExpression="PartNo" ReadOnly="True" InsertVisible="False" />
+                                <asp:BoundField DataField="PartNo" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="Part #" SortExpression="PartNo" ReadOnly="True" InsertVisible="False" />
                                     
-                                <asp:BoundField DataField="MaterialDescription" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Item Description"  SortExpression="MaterialDescription" ReadOnly="true" InsertVisible="false" />
+                                <asp:BoundField DataField="MaterialDescription" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="Item Description"  SortExpression="MaterialDescription" ReadOnly="true" InsertVisible="false" />
                                      
-                                <asp:BoundField DataField="UM" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Measurement"  SortExpression="UM" ReadOnly="true" InsertVisible="false" />
+                                <asp:BoundField DataField="UM" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="Measurement"  SortExpression="UM" ReadOnly="true" InsertVisible="false" />
                                            
-                                <asp:BoundField DataField="UnitPrice" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" HeaderText="Price $"  SortExpression="Price" ReadOnly="true" InsertVisible="false" />
+                                <asp:BoundField DataField="UnitPrice" DataFormatString="{0:C}" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" HeaderText="Price $"  SortExpression="Price" ReadOnly="true" InsertVisible="false" />
                                 
-                                <asp:CommandField ShowSelectButton="True" SelectText="Add" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" ItemStyle-ForeColor="#b00505" ItemStyle-BackColor="White"   />       
+                                <asp:CommandField ShowSelectButton="True" SelectText="Add" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" ItemStyle-ForeColor="#d52a3d" ItemStyle-BackColor="White"   />       
                                    
                             </Columns>
                   
@@ -51,25 +51,25 @@
             <td>&nbsp</td>
             <td valign="top" align="center">
                 <asp:Panel runat="server" Width="100%" >
-                    <asp:gridview ID="CartGrid" runat="server" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black"  ShowHeaderWhenEmpty="true" EmptyDataText="No Items on Cart" ShowFooter="true" AutoGenerateColumns="false" OnRowDataBound="CartGrid_RowDataBound" CssClass="Grid"  BackColor="White" BorderColor="#b00505" BorderStyle="None" BorderWidth="1px" CellPadding="4">
+                    <asp:gridview ID="CartGrid" runat="server" HeaderStyle-BorderStyle="Solid" HeaderStyle-BorderColor="Black"  ShowHeaderWhenEmpty="true" EmptyDataText="No Items on Cart" ShowFooter="true" AutoGenerateColumns="false" OnRowDataBound="CartGrid_RowDataBound" CssClass="Grid"  BackColor="White" BorderColor="#d52a3d" BorderStyle="None" BorderWidth="1px" CellPadding="4">
                             <Columns>
-                            <asp:BoundField DataField="ItemNumber" HeaderText="Item #" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" ItemStyle-HorizontalAlign="Center" SortExpression="ItemNumber" ReadOnly="True" InsertVisible="False" />
+                            <asp:BoundField DataField="ItemNumber" HeaderText="Item #" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" ItemStyle-HorizontalAlign="Center" SortExpression="ItemNumber" ReadOnly="True" InsertVisible="False" />
 
-                            <asp:BoundField DataField="PartNo"  HeaderText="Part #" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" ItemStyle-HorizontalAlign="Center" SortExpression="ItemNumber" ReadOnly="True" InsertVisible="False" />
+                            <asp:BoundField DataField="PartNo"  HeaderText="Part #" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" ItemStyle-HorizontalAlign="Center" SortExpression="ItemNumber" ReadOnly="True" InsertVisible="False" />
 
-                            <asp:BoundField DataField="ItemDesc" HeaderText="Item" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" ItemStyle-HorizontalAlign="Left" SortExpression="ItemNumber" ReadOnly="True" InsertVisible="False" />
+                            <asp:BoundField DataField="ItemDesc" HeaderText="Item" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" ItemStyle-HorizontalAlign="Left" SortExpression="ItemNumber" ReadOnly="True" InsertVisible="False" />
 
-                            <asp:BoundField DataField="UM" HeaderText="Measurement" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" ItemStyle-HorizontalAlign="Right" SortExpression="ItemNumber" ReadOnly="True" InsertVisible="False" />
+                            <asp:BoundField DataField="UM" HeaderText="Measurement" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" ItemStyle-HorizontalAlign="Right" SortExpression="ItemNumber" ReadOnly="True" InsertVisible="False" />
 
-                            <asp:BoundField DataField="Price" HeaderText="Price $" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" ItemStyle-HorizontalAlign="Right" SortExpression="ItemNumber" ReadOnly="True" InsertVisible="False" />
+                            <asp:BoundField DataField="Price" HeaderText="Price $" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" ItemStyle-HorizontalAlign="Right" SortExpression="ItemNumber" ReadOnly="True" InsertVisible="False" />
 
-                            <asp:TemplateField HeaderText="Quantity" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505">
+                            <asp:TemplateField HeaderText="Quantity" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d">
                                 <ItemTemplate>
                                      <asp:TextBox ID="Qty" runat="server" AutoPostBack="true" OnTextChanged="Qty_TextChanged" Width="75px" style="text-align: center" CssClass="ui-icon-tag"></asp:TextBox>
                                 </ItemTemplate>
                             </asp:TemplateField>
 
-                            <asp:BoundField DataField="Total" ItemStyle-HorizontalAlign="Right" HeaderText="Total $" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#b00505" SortExpression="ItemNumber" ReadOnly="True" InsertVisible="False" />
+                            <asp:BoundField DataField="Total" ItemStyle-HorizontalAlign="Right" HeaderText="Total $" HeaderStyle-ForeColor="White" HeaderStyle-BackColor="#d52a3d" SortExpression="ItemNumber" ReadOnly="True" InsertVisible="False" />
 
                             </Columns>
 

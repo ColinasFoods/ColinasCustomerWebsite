@@ -77,6 +77,11 @@ namespace ColinasFoods
             get { return Profiles.Visible; }
             set { Profiles.Visible = value; }
         }
+        public bool PFPVisible
+        {
+            get { return PFP.Visible; }
+            set { PFP.Visible = value; }
+        }
 
         public bool SalesVisible
         {
@@ -166,6 +171,26 @@ namespace ColinasFoods
                 {
                     Session["Check_Page_Refresh"] = DateTime.Now.ToString();
                     Response.Redirect("PDFDownloads.aspx", false);
+
+                }
+            }
+
+        }
+        protected void BtnReturn_click(object sender, EventArgs e)
+        {
+            if ((Session["LoginTime"] == null))
+            {
+                Response.Redirect("Login.aspx", false);
+                Context.ApplicationInstance.CompleteRequest();
+            }
+            else
+            {
+                // Is Event Fired PostBack, NOT REFRESH
+                if (IsPostBack)
+                {
+                    Session["Check_Page_Refresh"] = DateTime.Now.ToString();
+                    Page.ClientScript.RegisterStartupScript(
+    this.GetType(), "OpenWindow", "window.open('/images/return.jpg','_newtab');", true);
 
                 }
             }

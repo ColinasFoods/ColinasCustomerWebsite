@@ -28,6 +28,7 @@ namespace ColinasFoods
             ((SiteMaster)Master).NavBarVisible = false;
             ((SiteMaster)Master).logOutVisible = false;
             ((SiteMaster)Master).ProfileVisible = false;
+            ((SiteMaster)Master).PFPVisible = false;
             ((SiteMaster)Master).HeaderTitle = "Customer Login";
             Title = "Customer Login";
             Essentials.CurrentPage = ColinasFoods.Page.LOGIN;
