@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ColinasFoods {
-    
-    
-    public partial class Balance {
-        
+namespace ColinasFoods
+{
+
+
+    public partial class Balance
+    {
+
         /// <summary>
         /// TxtStartDate control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace ColinasFoods {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtStartDate;
-        
+
         /// <summary>
         /// TxtEndDate control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace ColinasFoods {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TxtEndDate;
-        
+
         /// <summary>
         /// BtnQuery control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace ColinasFoods {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnQuery;
-        
+
         /// <summary>
         /// BalancePanel control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace ColinasFoods {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel BalancePanel;
-        
+
         /// <summary>
         /// BalancesGrid control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace ColinasFoods {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView BalancesGrid;
-        
+
         /// <summary>
         /// SqlDataSource1 control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace ColinasFoods {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
-        
+
         /// <summary>
         /// HiddenFieldSID control.
         /// </summary>

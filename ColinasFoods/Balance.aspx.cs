@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Web;
@@ -193,6 +194,7 @@ namespace ColinasFoods
                 e.Row.Cells[7].Text = String.Format("{0:C}", _total60Time);
                 e.Row.Cells[8].Text = String.Format("{0:C}", _total90Time);
                 e.Row.Cells[9].Text = String.Format("{0:C}", _total91Time);
+
             }
         }
     }

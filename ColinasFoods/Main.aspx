@@ -1,7 +1,20 @@
 <%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Main.aspx.cs" Inherits="ColinasFoods.Main" %>
 
 <asp:Content ID = "BodyContent" ContentPlaceHolderID="MainContent" runat ="server" style="margin:0px;width:0px; height:100rem">
-    
+    <style>
+        .botonFormNoHover {
+           padding: 9px 17px;
+           font-family: Verdana, Geneva, sans-serif;
+           line-height: 1;
+           color: #fff;
+           border: none;
+           width:175px;
+           background-color: #d52a3d;
+           border: 1px solid #f1f1f1;
+           border-radius: 10px;
+           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+        }
+    </style>
     <div id="Maindiv" style="height: 0rem; width: 0rem;">
         <asp:Panel runat="server" ID="WelcomeDiv" CssClass="subtitle" Font-Size="20px" Width="500px" HorizontalAlign="Left">
             <h1 style="position: relative; left: 35rem; top: -5rem;">Welcome Back, <%= ColinasFoods.Essentials.UserName != null && ColinasFoods.Essentials.UserName.Length > 0 ? (Char.ToUpper(ColinasFoods.Essentials.UserName[0]) + ColinasFoods.Essentials.UserName.Substring(1)) : "" %></h1>
@@ -58,7 +71,7 @@
         <div id="MyBalanceDiv" style="position: relative; top: -18rem; right: -38rem; width: 10rem">
             <asp:GridView ID="hiddenBalanceGrid" runat="server" CssClass="hidden"></asp:GridView>
             <h1>My Total Balance:</h1>
-            <asp:Label ID="balanceLabel" runat="server" CssClass="botonForm"></asp:Label>
+            <asp:Label ID="balanceLabel" runat="server" CssClass="botonFormNoHover"></asp:Label>
             <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ColinasERPEntities %>" SelectCommandType="StoredProcedure" SelectCommand="Ac_GetBalance" />
         </div>
 
